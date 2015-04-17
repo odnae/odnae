@@ -1,0 +1,115 @@
+[URI of the OWL(RDF/XML) output file]
+chttp://purl.obolibrary.org/obo/odnae/NDF-RT_import.owl.
+
+[Source ontology]
+NDF-RT
+
+[Low level source term URIs]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000065
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000066
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000069
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000070
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000083
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000087
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000098
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000099
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000102
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000103
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000104
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000105
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000109
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000114
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000117
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000118
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000121
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000130
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000132
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000134
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000135
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000138
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000144
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000145
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000147
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000150
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000155
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000159
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000160
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000161
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000168
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000174
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000176
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000177
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000180
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000181
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000183
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000184
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000185
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000190
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000191
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000193
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000203
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000205
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000206
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000211
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000212
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000225
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000230
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000233
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000236
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000243
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000246
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000247
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000255
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000256
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000008288
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009918
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009923
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009924
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009946
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009948
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009949
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009958
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010215
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010256
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010260
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010262
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010279
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000019993
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020008
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020009
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020010
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020019
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020025
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020026
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020065
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020084
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020089
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175075
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175446
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133 #enzyme inhibitor [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000254 #immunological and biological factors [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000065 #physiochemcial activity [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085 #receptor interactions [MoA]
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133 #enzyme inhibitor [MoA]
+subClassOf http://purl.obolibrary.org/obo/ODNAE_0000002
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000254 #immunological and biological factors [MoA]
+subClassOf http://purl.obolibrary.org/obo/ODNAE_0000002
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000065 #physiochemcial activity [MoA]
+subClassOf http://purl.obolibrary.org/obo/ODNAE_0000002
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085 #receptor interactions [MoA]
+subClassOf http://purl.obolibrary.org/obo/ODNAE_0000002
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

@@ -1,0 +1,2449 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="chttp://purl.obolibrary.org/obo/odnae/NDF-RT_import.owl.#"
+     xml:base="chttp://purl.obolibrary.org/obo/odnae/NDF-RT_import.owl."
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:NDF-RT="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="chttp://purl.obolibrary.org/obo/odnae/NDF-RT_import.owl."/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#UMLS_CUI">
+        <rdfs:label>UMLS_CUI</rdfs:label>
+        <NDF-RT:code>C140</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Synonym">
+        <rdfs:label>Synonym</rdfs:label>
+        <NDF-RT:code>C136</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#code">
+        <protege:readOnly rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</protege:readOnly>
+        <NDF-RT:code>AHC0</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
+    <owl:AnnotationProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Display_Name">
+        <rdfs:label>Display_Name</rdfs:label>
+        <NDF-RT:code>C264</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#NUI">
+        <rdfs:label>NUI</rdfs:label>
+        <NDF-RT:code>C10490107818172</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Name">
+        <rdfs:label>MeSH_Name</rdfs:label>
+        <NDF-RT:code>C287</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_CUI">
+        <rdfs:label>RxNorm_CUI</rdfs:label>
+        <NDF-RT:code>C818</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_DUI">
+        <rdfs:label>MeSH_DUI</rdfs:label>
+        <NDF-RT:code>C134</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Display_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Display_Name">
+        <rdfs:label>Display_Name</rdfs:label>
+        <NDF-RT:code>C264</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_DUI -->
+
+    <owl:DatatypeProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_DUI">
+        <rdfs:label>MeSH_DUI</rdfs:label>
+        <NDF-RT:code>C134</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Name">
+        <rdfs:label>MeSH_Name</rdfs:label>
+        <NDF-RT:code>C287</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#NUI -->
+
+    <owl:DatatypeProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#NUI">
+        <rdfs:label>NUI</rdfs:label>
+        <NDF-RT:code>C10490107818172</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_CUI -->
+
+    <owl:DatatypeProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_CUI">
+        <rdfs:label>RxNorm_CUI</rdfs:label>
+        <NDF-RT:code>C818</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Synonym -->
+
+    <owl:DatatypeProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Synonym">
+        <rdfs:label>Synonym</rdfs:label>
+        <NDF-RT:code>C136</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#UMLS_CUI -->
+
+    <owl:DatatypeProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#UMLS_CUI">
+        <rdfs:label>UMLS_CUI</rdfs:label>
+        <NDF-RT:code>C140</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#code -->
+
+    <owl:DatatypeProperty rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#code">
+        <protege:readOnly rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</protege:readOnly>
+        <NDF-RT:code>AHC0</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000065 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000065">
+        <rdfs:label>Physiochemical Activity [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ODNAE_0000002"/>
+        <NDF-RT:UMLS_CUI>C1372991</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C308</NDF-RT:code>
+        <NDF-RT:NUI>N0000000065</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Physiochemical Activity</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>989958</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000066 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000066">
+        <rdfs:label>Small Ion Transport Pump Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000072"/>
+        <NDF-RT:code>C310</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>986087</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000066</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Small Ion Transport Pump Interactions</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373107</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000067 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000067">
+        <rdfs:label>HER Receptor Family Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000213"/>
+        <NDF-RT:code>C312</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>986672</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000067</NDF-RT:NUI>
+        <NDF-RT:Synonym>EGFR Family Interactions</NDF-RT:Synonym>
+        <NDF-RT:Synonym>HER Family Interactions</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>HER Receptor Family Interactions</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>Epidermal Growth Factor Receptor Family Interactions</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C2916814</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Human Epidermal Growth Factor Receptor Family Interactions</NDF-RT:Synonym>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000069 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000069">
+        <rdfs:label>Calcium Channel Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000140"/>
+        <NDF-RT:UMLS_CUI>C2757014</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Calcium Channel Blocker</NDF-RT:Synonym>
+        <NDF-RT:MeSH_Name>Calcium Channel Blockers</NDF-RT:MeSH_Name>
+        <NDF-RT:code>C316</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>986242</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Calcium Channel Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000069</NDF-RT:NUI>
+        <NDF-RT:MeSH_DUI>D002121</NDF-RT:MeSH_DUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000070 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000070">
+        <rdfs:label>Angiotensin 2 Receptor Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152"/>
+        <NDF-RT:Synonym>Angiotensin II Receptor Antagonists</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C2757003</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C318</NDF-RT:code>
+        <NDF-RT:NUI>N0000000070</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Angiotensin 2 Receptor Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>984935</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Synonym>Angiotensin II Receptor Blockers</NDF-RT:Synonym>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000072 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000072">
+        <rdfs:label>Active Transporter Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085"/>
+        <NDF-RT:RxNorm_CUI>1031287</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Active Transporter Interactions</NDF-RT:Display_Name>
+        <NDF-RT:code>C322</NDF-RT:code>
+        <NDF-RT:NUI>N0000000072</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1373104</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000076 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000076">
+        <rdfs:label>Protease Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:MeSH_Name>Protease Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:MeSH_DUI>D011480</NDF-RT:MeSH_DUI>
+        <NDF-RT:Display_Name>Protease Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>992709</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2756997</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000076</NDF-RT:NUI>
+        <NDF-RT:code>C330</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000082 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000082">
+        <rdfs:label>Immunologic Factors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000254"/>
+        <NDF-RT:NUI>N0000000082</NDF-RT:NUI>
+        <NDF-RT:code>C342</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C2757006</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_Name>Immunologic Factors</NDF-RT:MeSH_Name>
+        <NDF-RT:RxNorm_CUI>993127</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Immunologic Factors</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_DUI>D007155</NDF-RT:MeSH_DUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000083 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000083">
+        <rdfs:label>Leukotriene Receptor Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000124"/>
+        <NDF-RT:RxNorm_CUI>992724</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2757015</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C344</NDF-RT:code>
+        <NDF-RT:Display_Name>Leukotriene Receptor Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000083</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000084 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000084">
+        <rdfs:label>Sex Hormone Receptor Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000162"/>
+        <NDF-RT:code>C346</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1373000</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000084</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>985639</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Sex Hormone Receptor Antagonists</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085">
+        <rdfs:label>Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ODNAE_0000002"/>
+        <NDF-RT:RxNorm_CUI>988560</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1372999</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C348</NDF-RT:code>
+        <NDF-RT:NUI>N0000000085</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Receptor Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000087 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000087">
+        <rdfs:label>Chelating Activity [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175355"/>
+        <NDF-RT:MeSH_DUI>D002614</NDF-RT:MeSH_DUI>
+        <NDF-RT:Display_Name>Chelating Activity</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_Name>Chelating Activity</NDF-RT:MeSH_Name>
+        <NDF-RT:RxNorm_CUI>1025213</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000087</NDF-RT:NUI>
+        <NDF-RT:code>C352</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1527256</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000092 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000092">
+        <rdfs:label>Adrenergic Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000153"/>
+        <NDF-RT:code>C362</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>993129</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_Name>Adrenergic Antagonists</NDF-RT:MeSH_Name>
+        <NDF-RT:MeSH_DUI>D018674</NDF-RT:MeSH_DUI>
+        <NDF-RT:Display_Name>Adrenergic Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2757018</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000092</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000097 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000097">
+        <rdfs:label>Cholinergic Muscarinic Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152"/>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175368"/>
+        <NDF-RT:RxNorm_CUI>986244</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C372</NDF-RT:code>
+        <NDF-RT:NUI>N0000000097</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Cholinergic Muscarinic Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373009</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000098 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000098">
+        <rdfs:label>Thymidylate Synthetase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000233"/>
+        <NDF-RT:code>C374</NDF-RT:code>
+        <NDF-RT:Display_Name>Thymidylate Synthetase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000098</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>993154</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2756988</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000099 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000099">
+        <rdfs:label>Adrenergic alpha-Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000092"/>
+        <NDF-RT:Display_Name>Adrenergic alpha-Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>alpha-Adrenergic Antagonists</NDF-RT:Synonym>
+        <NDF-RT:code>C376</NDF-RT:code>
+        <NDF-RT:MeSH_Name>Adrenergic alpha-Antagonists</NDF-RT:MeSH_Name>
+        <NDF-RT:RxNorm_CUI>1023426</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_DUI>D000317</NDF-RT:MeSH_DUI>
+        <NDF-RT:Synonym>Alpha-adrenergic Blocker</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C2756989</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000099</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000102 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000102">
+        <rdfs:label>Norepinephrine Uptake Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000234"/>
+        <NDF-RT:UMLS_CUI>C2757023</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C382</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>989028</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Norepinephrine Uptake Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000102</NDF-RT:NUI>
+        <NDF-RT:MeSH_DUI>D018759</NDF-RT:MeSH_DUI>
+        <NDF-RT:MeSH_Name>Adrenergic Uptake Inhibitors</NDF-RT:MeSH_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000103 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000103">
+        <rdfs:label>Reverse Transcriptase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000233"/>
+        <NDF-RT:MeSH_DUI>D018894</NDF-RT:MeSH_DUI>
+        <NDF-RT:code>C384</NDF-RT:code>
+        <NDF-RT:Display_Name>Reverse Transcriptase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_Name>Reverse Transcriptase Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:NUI>N0000000103</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C2757067</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>993157</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000104 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000104">
+        <rdfs:label>Cholinergic Muscarinic Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000097"/>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175369"/>
+        <NDF-RT:Display_Name>Cholinergic Muscarinic Agonists</NDF-RT:Display_Name>
+        <NDF-RT:code>C386</NDF-RT:code>
+        <NDF-RT:NUI>N0000000104</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C2757026</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>990721</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000105 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000105">
+        <rdfs:label>Neurotransmitter Transporter Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000072"/>
+        <NDF-RT:NUI>N0000000105</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1373006</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C388</NDF-RT:code>
+        <NDF-RT:Display_Name>Neurotransmitter Transporter Interactions</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>985066</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000109 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000109">
+        <rdfs:label>Serotonin Uptake Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000167"/>
+        <NDF-RT:Display_Name>Serotonin Uptake Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>992711</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C396</NDF-RT:code>
+        <NDF-RT:NUI>N0000000109</NDF-RT:NUI>
+        <NDF-RT:MeSH_DUI>D017367</NDF-RT:MeSH_DUI>
+        <NDF-RT:MeSH_Name>Serotonin Uptake Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:UMLS_CUI>C2757053</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000111 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000111">
+        <rdfs:label>Folic Acid Metabolism Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000233"/>
+        <NDF-RT:MeSH_Name>Folic Acid Antagonists</NDF-RT:MeSH_Name>
+        <NDF-RT:Synonym>Folic Acid Antagonists</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>Folic Acid Metabolism Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000111</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>1029786</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2916820</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C400</NDF-RT:code>
+        <NDF-RT:MeSH_DUI>D005493</NDF-RT:MeSH_DUI>
+        <NDF-RT:Synonym>Folic Acid Metabolic Inhibitors</NDF-RT:Synonym>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000114 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000114">
+        <rdfs:label>Dopamine Uptake Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000219"/>
+        <NDF-RT:Display_Name>Dopamine Uptake Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2757017</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C406</NDF-RT:code>
+        <NDF-RT:MeSH_DUI>D018765</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_CUI>1028789</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000114</NDF-RT:NUI>
+        <NDF-RT:MeSH_Name>Dopamine Uptake Inhibitors</NDF-RT:MeSH_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000117 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000117">
+        <rdfs:label>Dopamine Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000203"/>
+        <NDF-RT:MeSH_DUI>D018491</NDF-RT:MeSH_DUI>
+        <NDF-RT:code>C412</NDF-RT:code>
+        <NDF-RT:NUI>N0000000117</NDF-RT:NUI>
+        <NDF-RT:Synonym>Dopaminergic Agonist</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C2757007</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Dopamine Agonists</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>992714</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_Name>Dopamine Agonists</NDF-RT:MeSH_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000118 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000118">
+        <rdfs:label>GABA A Modulators [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000138"/>
+        <NDF-RT:NUI>N0000000118</NDF-RT:NUI>
+        <NDF-RT:Synonym>GABA A Receptor Modulators</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C1373017</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>GABA A Modulators</NDF-RT:Display_Name>
+        <NDF-RT:code>C414</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>990722</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000121 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000121">
+        <rdfs:label>Hydroxymethylglutaryl-CoA Reductase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175919"/>
+        <NDF-RT:NUI>N0000000121</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C2756999</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>HMG-CoA Reductase Inhibitor</NDF-RT:Synonym>
+        <NDF-RT:Synonym>HMG-CoA Reductase Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:MeSH_Name>Hydroxymethylglutaryl-CoA Reductase Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:MeSH_DUI>D019161</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_CUI>993150</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C420</NDF-RT:code>
+        <NDF-RT:Display_Name>Hydroxymethylglutaryl-CoA Reductase Inhibitors</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000122 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000122">
+        <rdfs:label>Adrenergic Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000153"/>
+        <NDF-RT:code>C422</NDF-RT:code>
+        <NDF-RT:NUI>N0000000122</NDF-RT:NUI>
+        <NDF-RT:MeSH_Name>Adrenergic Agonists</NDF-RT:MeSH_Name>
+        <NDF-RT:Display_Name>Adrenergic Agonists</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_DUI>D000322</NDF-RT:MeSH_DUI>
+        <NDF-RT:UMLS_CUI>C2757025</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>1029285</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000124 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000124">
+        <rdfs:label>Leukotriene Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152"/>
+        <NDF-RT:NUI>N0000000124</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>987670</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C426</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1373014</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Leukotriene Receptor Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000128 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000128">
+        <rdfs:label>Phosphodiesterase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:RxNorm_CUI>993167</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000128</NDF-RT:NUI>
+        <NDF-RT:MeSH_DUI>D010726</NDF-RT:MeSH_DUI>
+        <NDF-RT:UMLS_CUI>C1656262</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Phosphodiesterase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_Name>Phosphodiesterase Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:code>C434</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000130 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000130">
+        <rdfs:label>Serotonin Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000198"/>
+        <NDF-RT:code>C438</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C2757052</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>993156</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Serotonin Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000130</NDF-RT:NUI>
+        <NDF-RT:MeSH_DUI>D012702</NDF-RT:MeSH_DUI>
+        <NDF-RT:MeSH_Name>Serotonin Antagonists</NDF-RT:MeSH_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000132 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000132">
+        <rdfs:label>Organic Anion Transporter Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000072"/>
+        <NDF-RT:NUI>N0000000132</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Organic Anion Transporter Interactions</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>987411</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1373100</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C442</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133">
+        <rdfs:label>Enzyme Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ODNAE_0000002"/>
+        <NDF-RT:RxNorm_CUI>1032544</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_Name>Enzyme Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:NUI>N0000000133</NDF-RT:NUI>
+        <NDF-RT:code>C444</NDF-RT:code>
+        <NDF-RT:Display_Name>Enzyme Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_DUI>D004791</NDF-RT:MeSH_DUI>
+        <NDF-RT:UMLS_CUI>C2756995</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000134 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000134">
+        <rdfs:label>Lipoxygenase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:RxNorm_CUI>1031400</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Lipoxygenase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:code>C446</NDF-RT:code>
+        <NDF-RT:MeSH_Name>Lipoxygenase Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:UMLS_CUI>C2757064</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_DUI>D016859</NDF-RT:MeSH_DUI>
+        <NDF-RT:NUI>N0000000134</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000135 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000135">
+        <rdfs:label>Immunologic Adjuvants [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000247"/>
+        <NDF-RT:code>C448</NDF-RT:code>
+        <NDF-RT:Display_Name>Immunologic Adjuvants</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>989878</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_DUI>D000276</NDF-RT:MeSH_DUI>
+        <NDF-RT:NUI>N0000000135</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1383096</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Adjuvants, Immunologic</NDF-RT:Synonym>
+        <NDF-RT:MeSH_Name>Adjuvants, Immunologic</NDF-RT:MeSH_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000138 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000138">
+        <rdfs:label>GABA A Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000156"/>
+        <NDF-RT:NUI>N0000000138</NDF-RT:NUI>
+        <NDF-RT:code>C454</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1373022</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>GABA A Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>988922</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000140 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000140">
+        <rdfs:label>Calcium Channel Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000193"/>
+        <NDF-RT:code>C458</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>990245</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Calcium Channel Interactions</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000140</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1373020</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000144 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000144">
+        <rdfs:label>Iron Chelating Activity [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175472"/>
+        <NDF-RT:NUI>N0000000144</NDF-RT:NUI>
+        <NDF-RT:MeSH_Name>Iron Chelating Activity</NDF-RT:MeSH_Name>
+        <NDF-RT:UMLS_CUI>C2757050</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>985781</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C466</NDF-RT:code>
+        <NDF-RT:MeSH_DUI>D007502</NDF-RT:MeSH_DUI>
+        <NDF-RT:Display_Name>Iron Chelating Activity</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000145 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000145">
+        <rdfs:label>Estrogen Receptor Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000084"/>
+        <NDF-RT:RxNorm_CUI>984514</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1373098</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000145</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Estrogen Receptor Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:code>C468</NDF-RT:code>
+        <NDF-RT:Synonym>Estrogen Receptor Inhibitor</NDF-RT:Synonym>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000147 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000147">
+        <rdfs:label>Proton Pump Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000066"/>
+        <NDF-RT:Display_Name>Proton Pump Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:code>C472</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1384478</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000147</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>986356</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000149 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000149">
+        <rdfs:label>Hormone Receptor Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000257"/>
+        <NDF-RT:code>C476</NDF-RT:code>
+        <NDF-RT:NUI>N0000000149</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1373095</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>985200</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Hormone Receptor Agonists</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000150 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000150">
+        <rdfs:label>Protein Synthesis Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:MeSH_Name>Protein Synthesis Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:Display_Name>Protein Synthesis Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_DUI>D011500</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_CUI>993158</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C478</NDF-RT:code>
+        <NDF-RT:NUI>N0000000150</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C2757051</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152">
+        <rdfs:label>G-Protein-linked Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085"/>
+        <NDF-RT:RxNorm_CUI>984725</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000152</NDF-RT:NUI>
+        <NDF-RT:code>C482</NDF-RT:code>
+        <NDF-RT:Synonym>G-Protein-linked Receptor-Effector Interactions</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>G-Protein-linked Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2916797</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000153 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000153">
+        <rdfs:label>Adrenergic Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152"/>
+        <NDF-RT:code>C484</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>987972</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Adrenergic Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000153</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1373072</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000155 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000155">
+        <rdfs:label>Uncouplers [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:code>C488</NDF-RT:code>
+        <NDF-RT:NUI>N0000000155</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Uncouplers</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373071</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>986674</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000156 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000156">
+        <rdfs:label>Chloride Channel Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000193"/>
+        <NDF-RT:UMLS_CUI>C1373070</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000156</NDF-RT:NUI>
+        <NDF-RT:code>C490</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>987326</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Chloride Channel Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000159 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000159">
+        <rdfs:label>Glucocorticoid Receptor Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175450"/>
+        <NDF-RT:Display_Name>Glucocorticoid Receptor Agonists</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>989879</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000159</NDF-RT:NUI>
+        <NDF-RT:code>C496</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1373068</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000160 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000160">
+        <rdfs:label>Cyclooxygenase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:MeSH_DUI>D016861</NDF-RT:MeSH_DUI>
+        <NDF-RT:Display_Name>Cyclooxygenase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2756982</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C498</NDF-RT:code>
+        <NDF-RT:NUI>N0000000160</NDF-RT:NUI>
+        <NDF-RT:MeSH_Name>Cyclooxygenase Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:RxNorm_CUI>992710</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000161 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000161">
+        <rdfs:label>Adrenergic beta-Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000092"/>
+        <NDF-RT:Synonym>beta-Adrenergic Receptor Inhibitor</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Beta-adrenergic Receptor Inhibitor</NDF-RT:Synonym>
+        <NDF-RT:Synonym>beta-Adrenergic Blocker</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>Adrenergic beta-Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>Beta-adrenergic Blocker</NDF-RT:Synonym>
+        <NDF-RT:Synonym>beta-Adrenergic Antagonists</NDF-RT:Synonym>
+        <NDF-RT:code>C500</NDF-RT:code>
+        <NDF-RT:NUI>N0000000161</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C2757061</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_DUI>D000319</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_CUI>993131</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_Name>Adrenergic beta-Antagonists</NDF-RT:MeSH_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000162 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000162">
+        <rdfs:label>Steroid Receptor Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000221"/>
+        <NDF-RT:code>C502</NDF-RT:code>
+        <NDF-RT:NUI>N0000000162</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>987973</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1373067</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Steroid Receptor Antagonists</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000167 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000167">
+        <rdfs:label>Serotonin Transporter Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000105"/>
+        <NDF-RT:RxNorm_CUI>987204</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1373063</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C512</NDF-RT:code>
+        <NDF-RT:NUI>N0000000167</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Serotonin Transporter Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000168 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000168">
+        <rdfs:label>Selective Estrogen Receptor Modulators [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000172"/>
+        <NDF-RT:Display_Name>Selective Estrogen Receptor Modulators</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000168</NDF-RT:NUI>
+        <NDF-RT:MeSH_Name>Selective Estrogen Receptor Modulators</NDF-RT:MeSH_Name>
+        <NDF-RT:RxNorm_CUI>993164</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2757056</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_DUI>D020845</NDF-RT:MeSH_DUI>
+        <NDF-RT:code>C514</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000172 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000172">
+        <rdfs:label>Steroid Receptor Modulators [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000255"/>
+        <NDF-RT:code>C522</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1373061</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000172</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>987671</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Steroid Receptor Modulators</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000174 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000174">
+        <rdfs:label>Opioid Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000200"/>
+        <NDF-RT:RxNorm_CUI>985466</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1373059</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C526</NDF-RT:code>
+        <NDF-RT:NUI>N0000000174</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Opioid Agonists</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000175 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000175">
+        <rdfs:label>Cytokine Receptor Superfamily Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085"/>
+        <NDF-RT:code>C528</NDF-RT:code>
+        <NDF-RT:Display_Name>Cytokine Receptor Superfamily Interactions</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000175</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>984937</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1373058</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000176 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000176">
+        <rdfs:label>Topoisomerase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000233"/>
+        <NDF-RT:UMLS_CUI>C1384454</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Topoisomerase Inhibitor</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>989757</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C530</NDF-RT:code>
+        <NDF-RT:NUI>N0000000176</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Topoisomerase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>DNA Gyrase Inhibitors</NDF-RT:Synonym>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000177 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000177">
+        <rdfs:label>Cholinesterase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:RxNorm_CUI>992680</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C532</NDF-RT:code>
+        <NDF-RT:MeSH_DUI>D002800</NDF-RT:MeSH_DUI>
+        <NDF-RT:UMLS_CUI>C2757012</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_Name>Cholinesterase Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:Display_Name>Cholinesterase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000177</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000180 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000180">
+        <rdfs:label>Sodium Channel Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000193"/>
+        <NDF-RT:Display_Name>Sodium Channel Interactions</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>987802</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000180</NDF-RT:NUI>
+        <NDF-RT:code>C538</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1373055</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000181 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000181">
+        <rdfs:label>Angiotensin-converting Enzyme Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000076"/>
+        <NDF-RT:Synonym>Angiotensin Converting Enzyme Inhibitor</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C2757044</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Angiotensin-converting Enzyme Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000181</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>992731</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C540</NDF-RT:code>
+        <NDF-RT:MeSH_DUI>D000806</NDF-RT:MeSH_DUI>
+        <NDF-RT:MeSH_Name>Angiotensin-Converting Enzyme Inhibitors</NDF-RT:MeSH_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000182 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000182">
+        <rdfs:label>Steroid Hormone Receptor Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000149"/>
+        <NDF-RT:code>C542</NDF-RT:code>
+        <NDF-RT:Display_Name>Steroid Hormone Receptor Agonists</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>990907</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1373054</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000182</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000183 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000183">
+        <rdfs:label>Acetyl Aldehyde Dehydrogenase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:code>C544</NDF-RT:code>
+        <NDF-RT:NUI>N0000000183</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1373053</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>986817</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Acetyl Aldehyde Dehydrogenase Inhibitors</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000184 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000184">
+        <rdfs:label>Monoamine Oxidase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:UMLS_CUI>C2756978</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Monoamine Oxidase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>MAOI</NDF-RT:Synonym>
+        <NDF-RT:MeSH_DUI>D008996</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_CUI>992698</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C546</NDF-RT:code>
+        <NDF-RT:MeSH_Name>Monoamine Oxidase Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:NUI>N0000000184</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000185 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000185">
+        <rdfs:label>Progestational Hormone Receptor Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000214"/>
+        <NDF-RT:NUI>N0000000185</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1373052</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>986818</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Progestational Hormone Receptor Agonists</NDF-RT:Display_Name>
+        <NDF-RT:code>C548</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000190 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000190">
+        <rdfs:label>Histamine H1 Receptor Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000207"/>
+        <NDF-RT:Synonym>H1 Receptor Blockers</NDF-RT:Synonym>
+        <NDF-RT:MeSH_DUI>D006634</NDF-RT:MeSH_DUI>
+        <NDF-RT:Synonym>H1 Receptor Antagonists</NDF-RT:Synonym>
+        <NDF-RT:code>C558</NDF-RT:code>
+        <NDF-RT:Synonym>Histamine H1 Antagonists</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000000190</NDF-RT:NUI>
+        <NDF-RT:MeSH_Name>Histamine H1 Antagonists</NDF-RT:MeSH_Name>
+        <NDF-RT:RxNorm_CUI>992695</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2757048</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Histamine H1 Blockers</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>Histamine H1 Receptor Antagonists</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000191 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000191">
+        <rdfs:label>Dihydrofolate Reductase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000111"/>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175074"/>
+        <NDF-RT:NUI>N0000000191</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Dihydrofolate Reductase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373048</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>441741</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C560</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000193 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000193">
+        <rdfs:label>Ion Channel Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085"/>
+        <NDF-RT:code>C564</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1373047</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>988382</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000193</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Ion Channel Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000198 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000198">
+        <rdfs:label>Serotonin Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152"/>
+        <NDF-RT:UMLS_CUI>C1373043</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000198</NDF-RT:NUI>
+        <NDF-RT:code>C574</NDF-RT:code>
+        <NDF-RT:Display_Name>Serotonin Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>988082</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000200 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000200">
+        <rdfs:label>Opioid Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152"/>
+        <NDF-RT:Display_Name>Opioid Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373041</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000200</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>989758</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C578</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000203 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000203">
+        <rdfs:label>Dopamine Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152"/>
+        <NDF-RT:UMLS_CUI>C1373039</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C584</NDF-RT:code>
+        <NDF-RT:Display_Name>Dopamine Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000203</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>985948</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000205 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000205">
+        <rdfs:label>Radiopharmaceutical Activity [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000065"/>
+        <NDF-RT:NUI>N0000000205</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C2757000</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Radiopharmaceutical Activity</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>987975</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_Name>Radiopharmaceuticals</NDF-RT:MeSH_Name>
+        <NDF-RT:code>C588</NDF-RT:code>
+        <NDF-RT:MeSH_DUI>D019275</NDF-RT:MeSH_DUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000206 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000206">
+        <rdfs:label>Xanthine Oxidase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:RxNorm_CUI>984728</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Xanthine Oxidase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1384464</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000206</NDF-RT:NUI>
+        <NDF-RT:code>C590</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000207 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000207">
+        <rdfs:label>Histamine Receptor Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000216"/>
+        <NDF-RT:RxNorm_CUI>989667</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Histamine Receptor Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_DUI>D006633</NDF-RT:MeSH_DUI>
+        <NDF-RT:code>C592</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1383092</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_Name>Histamine Antagonists</NDF-RT:MeSH_Name>
+        <NDF-RT:Synonym>Histamine Antagonists</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000000207</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000209 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000209">
+        <rdfs:label>Adrenergic alpha-Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000122"/>
+        <NDF-RT:MeSH_Name>Adrenergic alpha-Agonists</NDF-RT:MeSH_Name>
+        <NDF-RT:code>C596</NDF-RT:code>
+        <NDF-RT:Synonym>alpha-Adrenergic Agonists</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000000209</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>1029039</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_DUI>D000316</NDF-RT:MeSH_DUI>
+        <NDF-RT:UMLS_CUI>C2757042</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Adrenergic alpha-Agonists</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000211 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000211">
+        <rdfs:label>Potassium Channel Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000193"/>
+        <NDF-RT:UMLS_CUI>C1373036</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C600</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>989960</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000211</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Potassium Channel Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000212 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000212">
+        <rdfs:label>Ribonucleotide Reductase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000233"/>
+        <NDF-RT:RxNorm_CUI>441728</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000212</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Ribonucleotide Reductase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:code>C602</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1373035</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000213 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000213">
+        <rdfs:label>Receptor Protein Kinase Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085"/>
+        <NDF-RT:RxNorm_CUI>986538</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000213</NDF-RT:NUI>
+        <NDF-RT:code>C604</NDF-RT:code>
+        <NDF-RT:Display_Name>Receptor Protein Kinase Interactions</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373034</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000214 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000214">
+        <rdfs:label>Sex Hormone Receptor Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000182"/>
+        <NDF-RT:Display_Name>Sex Hormone Receptor Agonists</NDF-RT:Display_Name>
+        <NDF-RT:code>C606</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1373033</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000214</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>990080</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000216 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000216">
+        <rdfs:label>Histamine Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152"/>
+        <NDF-RT:RxNorm_CUI>989394</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Histamine Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373031</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C610</NDF-RT:code>
+        <NDF-RT:NUI>N0000000216</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000219 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000219">
+        <rdfs:label>Dopamine Transporter Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000105"/>
+        <NDF-RT:code>C616</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>984515</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000219</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1373028</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Dopamine Transporter Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000221 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000221">
+        <rdfs:label>Hormone Receptor Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000257"/>
+        <NDF-RT:NUI>N0000000221</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Hormone Receptor Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373026</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C620</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>990790</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000225 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000225">
+        <rdfs:label>Insulin Receptor Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000240"/>
+        <NDF-RT:NUI>N0000000225</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Insulin Receptor Agonists</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373092</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>986676</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C628</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000230 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000230">
+        <rdfs:label>Dopamine Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000203"/>
+        <NDF-RT:RxNorm_CUI>1032050</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000230</NDF-RT:NUI>
+        <NDF-RT:code>C638</NDF-RT:code>
+        <NDF-RT:MeSH_Name>Dopamine Antagonists</NDF-RT:MeSH_Name>
+        <NDF-RT:UMLS_CUI>C2757008</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_DUI>D018492</NDF-RT:MeSH_DUI>
+        <NDF-RT:Display_Name>Dopamine Antagonists</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000233 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000233">
+        <rdfs:label>Nucleic Acid Synthesis Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:MeSH_DUI>D019384</NDF-RT:MeSH_DUI>
+        <NDF-RT:UMLS_CUI>C2757009</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C644</NDF-RT:code>
+        <NDF-RT:Display_Name>Nucleic Acid Synthesis Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_Name>Nucleic Acid Synthesis Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:RxNorm_CUI>993166</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000233</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000234 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000234">
+        <rdfs:label>Norepinephrine Transporter Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000105"/>
+        <NDF-RT:code>C646</NDF-RT:code>
+        <NDF-RT:NUI>N0000000234</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C2267223</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Norepinephrine Transporter Interactions</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>988817</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000236 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000236">
+        <rdfs:label>Alkylating Activity [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000065"/>
+        <NDF-RT:code>C650</NDF-RT:code>
+        <NDF-RT:MeSH_DUI>D000477</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_CUI>1031878</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2756975</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000236</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Alkylating Activity</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_Name>Alkylating Activity</NDF-RT:MeSH_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000240 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000240">
+        <rdfs:label>Insulin Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000213"/>
+        <NDF-RT:RxNorm_CUI>987414</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1373083</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Insulin Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000000240</NDF-RT:NUI>
+        <NDF-RT:code>C658</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000242 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000242">
+        <rdfs:label>Transcription Factor Activity [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085"/>
+        <NDF-RT:NUI>N0000000242</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>1028825</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Transcription Factor Activity</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1148759</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C662</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000243 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000243">
+        <rdfs:label>Androgen Receptor Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000084"/>
+        <NDF-RT:NUI>N0000000243</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>989356</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C664</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1373082</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Androgen Receptor Inhibitor</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>Androgen Receptor Antagonists</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000246 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000246">
+        <rdfs:label>HIV Protease Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000076"/>
+        <NDF-RT:code>C670</NDF-RT:code>
+        <NDF-RT:Synonym>Human Immunodeficiency Virus Protease Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>HIV Protease Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_Name>HIV Protease Inhibitors</NDF-RT:MeSH_Name>
+        <NDF-RT:UMLS_CUI>C2756991</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_DUI>D017320</NDF-RT:MeSH_DUI>
+        <NDF-RT:NUI>N0000000246</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>993149</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000247 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000247">
+        <rdfs:label>Biological Response Modifiers [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000082"/>
+        <NDF-RT:UMLS_CUI>C2757019</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000247</NDF-RT:NUI>
+        <NDF-RT:MeSH_Name>Biological Response Modifiers</NDF-RT:MeSH_Name>
+        <NDF-RT:code>C672</NDF-RT:code>
+        <NDF-RT:Display_Name>Biological Response Modifiers</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>993132</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_DUI>D015545</NDF-RT:MeSH_DUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000254 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000254">
+        <rdfs:label>Immunologic and Biological Factors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ODNAE_0000002"/>
+        <NDF-RT:NUI>N0000000254</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>1032698</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_DUI>D007151</NDF-RT:MeSH_DUI>
+        <NDF-RT:code>C686</NDF-RT:code>
+        <NDF-RT:MeSH_Name>Immunologic and Biological Factors</NDF-RT:MeSH_Name>
+        <NDF-RT:UMLS_CUI>C0021048</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Immunologic and Biological Factors</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000255 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000255">
+        <rdfs:label>Hormone Receptor Modulators [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000257"/>
+        <NDF-RT:code>C688</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>989214</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000000255</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1373075</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Hormone Receptor Modulators</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000256 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000256">
+        <rdfs:label>Serotonin Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000198"/>
+        <NDF-RT:Display_Name>Serotonin Agonists</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2756998</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000256</NDF-RT:NUI>
+        <NDF-RT:code>C690</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>1022850</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_DUI>D017366</NDF-RT:MeSH_DUI>
+        <NDF-RT:MeSH_Name>Serotonin Agonists</NDF-RT:MeSH_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000257 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000257">
+        <rdfs:label>Hormone Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000242"/>
+        <NDF-RT:RxNorm_CUI>986361</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1373074</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000000257</NDF-RT:NUI>
+        <NDF-RT:code>C692</NDF-RT:code>
+        <NDF-RT:Display_Name>Hormone Receptor Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000008288 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000008288">
+        <rdfs:label>Cyclooxygenase 2 Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000160"/>
+        <NDF-RT:Synonym>COX-2 Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>993136</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2757001</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000008288</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Cyclooxygenase 2 Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>Cyclooxygenase II Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:code>C26942</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009918 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009918">
+        <rdfs:label>Adrenergic alpha2-Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000209"/>
+        <NDF-RT:code>C30202</NDF-RT:code>
+        <NDF-RT:Display_Name>Adrenergic alpha2-Agonists</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000009918</NDF-RT:NUI>
+        <NDF-RT:Synonym>Adrenergic alpha-2 Agonists</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C1373110</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>1035126</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Synonym>alpha-2 Adrenergic Agonists</NDF-RT:Synonym>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009923 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009923">
+        <rdfs:label>Adrenergic beta1-Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000161"/>
+        <NDF-RT:Synonym>beta-1 Adrenergic Antagonists</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000009923</NDF-RT:NUI>
+        <NDF-RT:code>C30212</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>986189</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1373134</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Adrenergic beta-1 Antagonists</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>Adrenergic beta1-Antagonists</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009924 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009924">
+        <rdfs:label>Adrenergic beta2-Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000161"/>
+        <NDF-RT:RxNorm_CUI>987660</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Synonym>beta-2 Adrenergic Antagonists</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C1373133</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Adrenergic beta-2 Antagonists</NDF-RT:Synonym>
+        <NDF-RT:code>C30214</NDF-RT:code>
+        <NDF-RT:Display_Name>Adrenergic beta2-Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000009924</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009946 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009946">
+        <rdfs:label>Para-Aminobenzoic Acid Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:Display_Name>Para-Aminobenzoic Acid Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2916799</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>984916</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000009946</NDF-RT:NUI>
+        <NDF-RT:Synonym>PABA Inhibitor</NDF-RT:Synonym>
+        <NDF-RT:code>C30260</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009948 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009948">
+        <rdfs:label>Non-Nucleoside Reverse Transcriptase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000103"/>
+        <NDF-RT:UMLS_CUI>C1373120</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>989597</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Non-Nucleoside Reverse Transcriptase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:code>C30264</NDF-RT:code>
+        <NDF-RT:NUI>N0000009948</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009949 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009949">
+        <rdfs:label>Antibody-Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085"/>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010226"/>
+        <NDF-RT:RxNorm_CUI>985716</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Antibody-Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000009949</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C2267208</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C30266</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009950 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009950">
+        <rdfs:label>Tumor Necrosis Factor Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000175"/>
+        <NDF-RT:NUI>N0000009950</NDF-RT:NUI>
+        <NDF-RT:code>C30268</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>984657</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Tumor Necrosis Factor Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373118</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>TNF Receptor Interactions</NDF-RT:Synonym>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009956 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009956">
+        <rdfs:label>Sterol Synthesis Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:NUI>N0000009956</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Sterol Synthesis Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>988794</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C1373112</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C30280</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009958 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009958">
+        <rdfs:label>Bone Surface Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000254"/>
+        <NDF-RT:Display_Name>Bone Surface Interactions</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373129</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C30284</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>985507</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000009958</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010215 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010215">
+        <rdfs:label>Transpeptidase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:Synonym>PBP inhibitors</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C1373138</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>984931</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Synonym>Transpepsidase Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:Synonym>penicillin binding protein Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000010215</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Transpeptidase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:code>C31788</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010226 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010226">
+        <rdfs:label>Antibody Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000082"/>
+        <NDF-RT:RxNorm_CUI>987958</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C31810</NDF-RT:code>
+        <NDF-RT:NUI>N0000010226</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Antibody Interactions</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2916825</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010255 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010255">
+        <rdfs:label>Cellular Structure Molecule Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000254"/>
+        <NDF-RT:UMLS_CUI>C1373148</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000010255</NDF-RT:NUI>
+        <NDF-RT:code>C31868</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>989808</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Cellular Structure Molecule Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010256 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010256">
+        <rdfs:label>Tubulin Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010255"/>
+        <NDF-RT:RxNorm_CUI>1023254</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Tubulin Interactions</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1373147</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000010256</NDF-RT:NUI>
+        <NDF-RT:code>C31870</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010260 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010260">
+        <rdfs:label>beta Tubulin Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010256"/>
+        <NDF-RT:code>C31878</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>986466</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000010260</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1373143</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>beta Tubulin Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010261 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010261">
+        <rdfs:label>Neurokinin 1 Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152"/>
+        <NDF-RT:Synonym>Substance P Receptor Interactions</NDF-RT:Synonym>
+        <NDF-RT:code>C31880</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C1373142</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>NK 1 Receptor Interactions</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000010261</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>984193</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Neurokinin 1 Receptor Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010262 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010262">
+        <rdfs:label>Neurokinin 1 Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010261"/>
+        <NDF-RT:code>C31882</NDF-RT:code>
+        <NDF-RT:Synonym>NK 1 Receptor Antagonists</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>988216</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2916827</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Substance P Receptor Antagonists</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>Neurokinin 1 Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000010262</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010278 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010278">
+        <rdfs:label>Interleukin 2 Receptor Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000175"/>
+        <NDF-RT:UMLS_CUI>C1373153</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>IL2 Receptor Interactions</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000010278</NDF-RT:NUI>
+        <NDF-RT:code>C31914</NDF-RT:code>
+        <NDF-RT:Display_Name>Interleukin 2 Receptor Interactions</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>984934</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010279 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010279">
+        <rdfs:label>Interleukin 2 Receptor Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010278"/>
+        <NDF-RT:Synonym>IL2 Receptor Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:Synonym>IL2 Receptor Antagonists</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>986467</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Synonym>IL2 Receptor Blockers</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Interleukin 2 Receptor Blockers</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>Interleukin 2 Receptor Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:code>C31916</NDF-RT:code>
+        <NDF-RT:NUI>N0000010279</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C1373152</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Interleukin 2 Receptor Inhibitors</NDF-RT:Synonym>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000019992 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000019992">
+        <rdfs:label>Hypothalmic Hormone Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152"/>
+        <NDF-RT:code>C300377</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C2267109</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Hypothalmic Hormone Interactions</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>985094</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000019992</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000019993 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000019993">
+        <rdfs:label>Hypothalamic Hormone Receptor Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000019992"/>
+        <NDF-RT:RxNorm_CUI>989569</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Hypothalamic Hormone Receptor Agonists</NDF-RT:Display_Name>
+        <NDF-RT:code>C300378</NDF-RT:code>
+        <NDF-RT:NUI>N0000019993</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C2916835</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020000 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020000">
+        <rdfs:label>Receptor Tyrosine Kinase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020001"/>
+        <NDF-RT:NUI>N0000020000</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C2267115</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Receptor Tyrosine Kinase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>987029</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C300385</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020001 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020001">
+        <rdfs:label>Tyrosine Kinase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175076"/>
+        <NDF-RT:NUI>N0000020001</NDF-RT:NUI>
+        <NDF-RT:code>C300386</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C2757011</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Tyrosine Kinase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>1028392</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020006 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020006">
+        <rdfs:label>HER Receptor Family Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000067"/>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020000"/>
+        <NDF-RT:Synonym>Human Epidermal Growth Factor Receptor Family Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>990667</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000020006</NDF-RT:NUI>
+        <NDF-RT:Display_Name>HER Receptor Family Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>HER Antagonists</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Human Epidermal Growth Factor Receptor Family Antagonists</NDF-RT:Synonym>
+        <NDF-RT:Synonym>EGFR Family Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:code>C300391</NDF-RT:code>
+        <NDF-RT:Synonym>HER Family Antagonists</NDF-RT:Synonym>
+        <NDF-RT:Synonym>HER Family Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C2916840</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>HER Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Epidermal Growth Factor Receptor Family Antagonists</NDF-RT:Synonym>
+        <NDF-RT:Synonym>EGFR Family Antagonists</NDF-RT:Synonym>
+        <NDF-RT:Synonym>HER Receptor Family Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Epidermal Growth Factor Receptor Family Inhibitors</NDF-RT:Synonym>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020008 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020008">
+        <rdfs:label>HER2/Neu/cerbB2 Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020006"/>
+        <NDF-RT:Synonym>HER-2/Neu/cerbB2 Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C2916795</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C300393</NDF-RT:code>
+        <NDF-RT:NUI>N0000020008</NDF-RT:NUI>
+        <NDF-RT:Synonym>HER2/Neu/cerbB2 Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:Synonym>HER2 Antagonists</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>984590</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Synonym>HER-2 Antagonists</NDF-RT:Synonym>
+        <NDF-RT:Synonym>HER2 Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:Synonym>HER-2 Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:Synonym>HER-2/Neu/cerbB2 Antagonists</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>HER2/Neu/cerbB2 Antagonists</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020009 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020009">
+        <rdfs:label>Bcr-Abl Tyrosine Kinase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020000"/>
+        <NDF-RT:code>C300394</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>984994</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2267122</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Bcr-Abl Tyrosine Kinase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000020009</NDF-RT:NUI>
+        <NDF-RT:Synonym>Bcr-Abl Tyrosine Kinase Inhibitor</NDF-RT:Synonym>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020010 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020010">
+        <rdfs:label>HER1 Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020006"/>
+        <NDF-RT:Synonym>HER-1 Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Epidermal Growth Factor Receptor Antagonists</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000020010</NDF-RT:NUI>
+        <NDF-RT:Synonym>HER1 Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:code>C300395</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C2916831</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Epidermal Growth Factor Receptor Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:Synonym>EGFR Antagonists</NDF-RT:Synonym>
+        <NDF-RT:Synonym>EGFR Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>HER1 Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>989266</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Synonym>HER-1 Antagonists</NDF-RT:Synonym>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020018 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020018">
+        <rdfs:label>Glucosyl Transferase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:NUI>N0000020018</NDF-RT:NUI>
+        <NDF-RT:code>C300403</NDF-RT:code>
+        <NDF-RT:Display_Name>Glucosyl Transferase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2267130</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>988136</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020019 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020019">
+        <rdfs:label>Glucosylceramide Synthase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020018"/>
+        <NDF-RT:Display_Name>Glucosylceramide Synthase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:code>C300404</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C2267131</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>989376</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000020019</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020025 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020025">
+        <rdfs:label>14-alpha Demethylase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:Display_Name>14-alpha Demethylase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>989952</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000020025</NDF-RT:NUI>
+        <NDF-RT:code>C300411</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C2267137</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020026 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020026">
+        <rdfs:label>Phosphodiesterase 5 Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000128"/>
+        <NDF-RT:UMLS_CUI>C2267138</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Phosphodiesterase 5 Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>Phosphodiesterase V Inhibitor</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>985515</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C300412</NDF-RT:code>
+        <NDF-RT:Synonym>Phosphodiesterase V Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000020026</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020065 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020065">
+        <rdfs:label>L-Calcium Channel Receptor Antagonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000069"/>
+        <NDF-RT:code>C300455</NDF-RT:code>
+        <NDF-RT:NUI>N0000020065</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>989377</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>L-Calcium Channel Receptor Antagonists</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2916833</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020084 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020084">
+        <rdfs:label>Ubiquitin Ligase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:code>C300474</NDF-RT:code>
+        <NDF-RT:Display_Name>Ubiquitin Ligase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1661195</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000020084</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>986156</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020089 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020089">
+        <rdfs:label>Viral Envelope Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000254"/>
+        <NDF-RT:UMLS_CUI>C2267190</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>989812</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000020089</NDF-RT:NUI>
+        <NDF-RT:code>C300479</NDF-RT:code>
+        <NDF-RT:Display_Name>Viral Envelope Interactions</NDF-RT:Display_Name>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175074 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175074">
+        <rdfs:label>Nucleoside Synthesis Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000233"/>
+        <NDF-RT:code>C634436</NDF-RT:code>
+        <NDF-RT:Display_Name>Nucleoside Synthesis Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:RxNorm_CUI>987332</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2266855</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000175074</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175075 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175075">
+        <rdfs:label>Proteasome Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000076"/>
+        <NDF-RT:RxNorm_CUI>988088</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Synonym>Proteasome Inhibitor</NDF-RT:Synonym>
+        <NDF-RT:code>C634437</NDF-RT:code>
+        <NDF-RT:Display_Name>Proteasome Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>Proteosome Inhibitors</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C2266856</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000175075</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175076 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175076">
+        <rdfs:label>Protein Kinase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175082"/>
+        <NDF-RT:RxNorm_CUI>993161</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000175076</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Protein Kinase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:code>C634438</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C2757016</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175082 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175082">
+        <rdfs:label>Kinase Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133"/>
+        <NDF-RT:code>C634444</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>1025684</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Kinase Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1152564</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000175082</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175355 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175355">
+        <rdfs:label>Binding Activity [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000065"/>
+        <NDF-RT:NUI>N0000175355</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>990338</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C634738</NDF-RT:code>
+        <NDF-RT:Display_Name>Binding Activity</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2266866</NDF-RT:UMLS_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175368 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175368">
+        <rdfs:label>Cholinergic Interactions [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085"/>
+        <NDF-RT:Display_Name>Cholinergic Interactions</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2266879</NDF-RT:UMLS_CUI>
+        <NDF-RT:code>C634751</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>987379</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000175368</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175369 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175369">
+        <rdfs:label>Cholinergic Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175368"/>
+        <NDF-RT:NUI>N0000175369</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Cholinergic Agonists</NDF-RT:Display_Name>
+        <NDF-RT:code>C634752</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C2757066</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>1033063</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175446 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175446">
+        <rdfs:label>Tumor Necrosis Factor alpha Receptor Blocking Activity [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175451"/>
+        <NDF-RT:code>C30270</NDF-RT:code>
+        <NDF-RT:Display_Name>Tumor Necrosis Factor alpha Receptor Blocking Activity</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2267209</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>TNF-a Receptor Blocking Activity</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000175446</NDF-RT:NUI>
+        <NDF-RT:Synonym>TNF-alpha Receptor Blocking Activity</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>988325</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175450 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175450">
+        <rdfs:label>Corticosteroid Hormone Receptor Agonists [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000182"/>
+        <NDF-RT:RxNorm_CUI>988660</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C634830</NDF-RT:code>
+        <NDF-RT:Display_Name>Corticosteroid Hormone Receptor Agonists</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C2266939</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000175450</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175451 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175451">
+        <rdfs:label>Tumor Necrosis Factor Receptor Blocking Activity [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009950"/>
+        <NDF-RT:UMLS_CUI>C2266940</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>984952</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C634831</NDF-RT:code>
+        <NDF-RT:Synonym>TNF Blocker</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>Tumor Necrosis Factor Receptor Blocking Activity</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>TNF Receptor Blocking Activity</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000175451</NDF-RT:NUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175472 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175472">
+        <rdfs:label>Metal Chelating Activity [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000087"/>
+        <NDF-RT:Display_Name>Metal Chelating Activity</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C1154714</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000175472</NDF-RT:NUI>
+        <NDF-RT:code>C634853</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>986481</NDF-RT:RxNorm_CUI>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175919 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175919">
+        <rdfs:label>Cholesterol Synthesis Inhibitors [MoA]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009956"/>
+        <NDF-RT:RxNorm_CUI>991925</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2917205</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000175919</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Cholesterol Synthesis Inhibitors</NDF-RT:Display_Name>
+        <NDF-RT:code>C635357</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ODNAE_0000002"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

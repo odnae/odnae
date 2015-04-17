@@ -1,0 +1,353 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/odnae/DrON_import.owl.
+
+[Source ontology]
+DRON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DRON_00022521 
+http://purl.obolibrary.org/obo/DRON_00018348 
+http://purl.obolibrary.org/obo/DRON_00013975 
+http://purl.obolibrary.org/obo/DRON_00020523 
+http://purl.obolibrary.org/obo/DRON_00020528 
+http://purl.obolibrary.org/obo/DRON_00018691 
+http://purl.obolibrary.org/obo/DRON_00013030 
+http://purl.obolibrary.org/obo/DRON_00018681 
+http://purl.obolibrary.org/obo/DRON_00020565 
+http://purl.obolibrary.org/obo/DRON_00012997 
+http://purl.obolibrary.org/obo/DRON_00020955 
+http://purl.obolibrary.org/obo/DRON_00026584 
+http://purl.obolibrary.org/obo/DRON_00020960 
+http://purl.obolibrary.org/obo/DRON_00027879 
+http://purl.obolibrary.org/obo/DRON_00021014 
+http://purl.obolibrary.org/obo/DRON_00026665 
+http://purl.obolibrary.org/obo/DRON_00021046 
+http://purl.obolibrary.org/obo/DRON_00019892 
+http://purl.obolibrary.org/obo/DRON_00021113 
+http://purl.obolibrary.org/obo/DRON_00021114 
+http://purl.obolibrary.org/obo/DRON_00026729 
+http://purl.obolibrary.org/obo/DRON_00024830 
+http://purl.obolibrary.org/obo/DRON_00010449 
+http://purl.obolibrary.org/obo/DRON_00013678 
+http://purl.obolibrary.org/obo/DRON_00014630 
+http://purl.obolibrary.org/obo/DRON_00021345 
+http://purl.obolibrary.org/obo/DRON_00025299 
+http://purl.obolibrary.org/obo/DRON_00021386 
+http://purl.obolibrary.org/obo/DRON_00020394 
+http://purl.obolibrary.org/obo/DRON_00020139 
+http://purl.obolibrary.org/obo/DRON_00021462 
+http://purl.obolibrary.org/obo/DRON_00021467 
+http://purl.obolibrary.org/obo/DRON_00019850 
+http://purl.obolibrary.org/obo/DRON_00021489 
+http://purl.obolibrary.org/obo/DRON_00014250 
+http://purl.obolibrary.org/obo/DRON_00018901 
+http://purl.obolibrary.org/obo/DRON_00025255
+http://purl.obolibrary.org/obo/DRON_00010568 
+http://purl.obolibrary.org/obo/DRON_00021503 
+http://purl.obolibrary.org/obo/DRON_00020337 
+http://purl.obolibrary.org/obo/DRON_00021599
+http://purl.obolibrary.org/obo/DRON_00021629 
+http://purl.obolibrary.org/obo/DRON_00025623 
+http://purl.obolibrary.org/obo/DRON_00018093 
+http://purl.obolibrary.org/obo/DRON_00021749 
+http://purl.obolibrary.org/obo/DRON_00013763 
+http://purl.obolibrary.org/obo/DRON_00059074 
+http://purl.obolibrary.org/obo/DRON_00014193 
+http://purl.obolibrary.org/obo/DRON_00020018 
+http://purl.obolibrary.org/obo/DRON_00018756 
+http://purl.obolibrary.org/obo/DRON_00018768 
+http://purl.obolibrary.org/obo/DRON_00021832 
+http://purl.obolibrary.org/obo/DRON_00021860 
+http://purl.obolibrary.org/obo/DRON_00018993 
+http://purl.obolibrary.org/obo/DRON_00024356 
+http://purl.obolibrary.org/obo/DRON_00021897 
+http://purl.obolibrary.org/obo/DRON_00021934 
+http://purl.obolibrary.org/obo/DRON_00021937 
+http://purl.obolibrary.org/obo/DRON_00021951 
+http://purl.obolibrary.org/obo/DRON_00021955 
+http://purl.obolibrary.org/obo/DRON_00019003 
+http://purl.obolibrary.org/obo/DRON_00025587 
+http://purl.obolibrary.org/obo/DRON_00021999 
+http://purl.obolibrary.org/obo/DRON_00025622 
+http://purl.obolibrary.org/obo/DRON_00014197 
+http://purl.obolibrary.org/obo/DRON_00019225 
+http://purl.obolibrary.org/obo/DRON_00022073 
+http://purl.obolibrary.org/obo/DRON_00020345 
+http://purl.obolibrary.org/obo/DRON_00020601 
+http://purl.obolibrary.org/obo/DRON_00025777 
+http://purl.obolibrary.org/obo/DRON_00020620 
+http://purl.obolibrary.org/obo/DRON_00020625 
+http://purl.obolibrary.org/obo/DRON_00012887 
+http://purl.obolibrary.org/obo/DRON_00020050 
+http://purl.obolibrary.org/obo/DRON_00020653 
+http://purl.obolibrary.org/obo/DRON_00018981 
+http://purl.obolibrary.org/obo/DRON_00022238 
+http://purl.obolibrary.org/obo/DRON_00018841 
+http://purl.obolibrary.org/obo/DRON_00053744 
+http://purl.obolibrary.org/obo/DRON_00022254 
+http://purl.obolibrary.org/obo/DRON_00019501 
+http://purl.obolibrary.org/obo/DRON_00022275 
+http://purl.obolibrary.org/obo/DRON_00022309 
+http://purl.obolibrary.org/obo/DRON_00022310 
+http://purl.obolibrary.org/obo/DRON_00018974 
+http://purl.obolibrary.org/obo/DRON_00022383 
+http://purl.obolibrary.org/obo/DRON_00022385 
+http://purl.obolibrary.org/obo/DRON_00022419 
+http://purl.obolibrary.org/obo/DRON_00022468 
+http://purl.obolibrary.org/obo/DRON_00022495 
+http://purl.obolibrary.org/obo/DRON_00022521
+
+http://purl.obolibrary.org/obo/DRON_00027865
+
+http://purl.obolibrary.org/obo/DRON_00022568
+http://purl.obolibrary.org/obo/DRON_00024436
+http://purl.obolibrary.org/obo/DRON_00026889
+http://purl.obolibrary.org/obo/DRON_00024020
+http://purl.obolibrary.org/obo/DRON_00024062
+
+http://purl.obolibrary.org/obo/DRON_00030932
+http://purl.obolibrary.org/obo/DRON_00030815
+http://purl.obolibrary.org/obo/DRON_00022663
+http://purl.obolibrary.org/obo/DRON_00031780
+http://purl.obolibrary.org/obo/DRON_00022714
+http://purl.obolibrary.org/obo/DRON_00022733
+http://purl.obolibrary.org/obo/DRON_00022739
+http://purl.obolibrary.org/obo/DRON_00022754
+http://purl.obolibrary.org/obo/DRON_00022757
+http://purl.obolibrary.org/obo/DRON_00027818
+http://purl.obolibrary.org/obo/DRON_00025837
+http://purl.obolibrary.org/obo/DRON_00025763
+http://purl.obolibrary.org/obo/DRON_00022828
+http://purl.obolibrary.org/obo/DRON_00027059
+http://purl.obolibrary.org/obo/DRON_00024071
+http://purl.obolibrary.org/obo/DRON_00027976
+http://purl.obolibrary.org/obo/DRON_00022859
+http://purl.obolibrary.org/obo/DRON_00034441
+http://purl.obolibrary.org/obo/DRON_00024462
+http://purl.obolibrary.org/obo/DRON_00022889
+http://purl.obolibrary.org/obo/DRON_00023012
+http://purl.obolibrary.org/obo/DRON_00031401
+http://purl.obolibrary.org/obo/DRON_00031753
+http://purl.obolibrary.org/obo/DRON_00023118
+http://purl.obolibrary.org/obo/DRON_00023136
+http://purl.obolibrary.org/obo/DRON_00030338
+http://purl.obolibrary.org/obo/DRON_00023184
+http://purl.obolibrary.org/obo/DRON_00026059
+http://purl.obolibrary.org/obo/DRON_00023204
+http://purl.obolibrary.org/obo/DRON_00024497
+http://purl.obolibrary.org/obo/DRON_00023278
+http://purl.obolibrary.org/obo/DRON_00030845
+http://purl.obolibrary.org/obo/DRON_00023302
+http://purl.obolibrary.org/obo/DRON_00033154
+http://purl.obolibrary.org/obo/DRON_00025863
+http://purl.obolibrary.org/obo/DRON_00023323
+http://purl.obolibrary.org/obo/DRON_00025297
+http://purl.obolibrary.org/obo/DRON_00023325
+http://purl.obolibrary.org/obo/DRON_00026716
+http://purl.obolibrary.org/obo/DRON_00030385
+http://purl.obolibrary.org/obo/DRON_00023363
+http://purl.obolibrary.org/obo/DRON_00023379
+http://purl.obolibrary.org/obo/DRON_00023396
+http://purl.obolibrary.org/obo/DRON_00030794
+http://purl.obolibrary.org/obo/DRON_00023427
+http://purl.obolibrary.org/obo/DRON_00023447
+http://purl.obolibrary.org/obo/DRON_00023452
+http://purl.obolibrary.org/obo/DRON_00023479
+http://purl.obolibrary.org/obo/DRON_00023497
+http://purl.obolibrary.org/obo/DRON_00029994
+http://purl.obolibrary.org/obo/DRON_00027893
+http://purl.obolibrary.org/obo/DRON_00023504
+http://purl.obolibrary.org/obo/DRON_00031408
+http://purl.obolibrary.org/obo/DRON_00031159
+http://purl.obolibrary.org/obo/DRON_00031159
+http://purl.obolibrary.org/obo/DRON_00033639
+http://purl.obolibrary.org/obo/DRON_00030051
+http://purl.obolibrary.org/obo/DRON_00023599
+http://purl.obolibrary.org/obo/DRON_00023605
+http://purl.obolibrary.org/obo/DRON_00030635
+http://purl.obolibrary.org/obo/DRON_00023612
+http://purl.obolibrary.org/obo/DRON_00033048
+http://purl.obolibrary.org/obo/DRON_00023619
+http://purl.obolibrary.org/obo/DRON_00023623
+http://purl.obolibrary.org/obo/DRON_00023632
+http://purl.obolibrary.org/obo/DRON_00031788
+http://purl.obolibrary.org/obo/DRON_00025843
+http://purl.obolibrary.org/obo/DRON_00020336
+http://purl.obolibrary.org/obo/DRON_00023704
+http://purl.obolibrary.org/obo/DRON_00027279
+http://purl.obolibrary.org/obo/DRON_00026893
+http://purl.obolibrary.org/obo/DRON_00024052
+http://purl.obolibrary.org/obo/DRON_00026894
+http://purl.obolibrary.org/obo/DRON_00033939
+http://purl.obolibrary.org/obo/DRON_00023742
+http://purl.obolibrary.org/obo/DRON_00023748
+http://purl.obolibrary.org/obo/DRON_00025774
+http://purl.obolibrary.org/obo/DRON_00026895
+http://purl.obolibrary.org/obo/DRON_00023781
+http://purl.obolibrary.org/obo/DRON_00027215
+http://purl.obolibrary.org/obo/DRON_00024010
+http://purl.obolibrary.org/obo/DRON_00023783
+http://purl.obolibrary.org/obo/DRON_00024045
+http://purl.obolibrary.org/obo/DRON_00023808
+http://purl.obolibrary.org/obo/DRON_00023809
+http://purl.obolibrary.org/obo/DRON_00024567
+http://purl.obolibrary.org/obo/DRON_00080145
+http://purl.obolibrary.org/obo/DRON_00020504
+http://purl.obolibrary.org/obo/DRON_00020523
+http://purl.obolibrary.org/obo/DRON_00020525
+http://purl.obolibrary.org/obo/DRON_00020557
+http://purl.obolibrary.org/obo/DRON_00028026
+http://purl.obolibrary.org/obo/DRON_00021059
+http://purl.obolibrary.org/obo/DRON_00021347
+http://purl.obolibrary.org/obo/DRON_00021423
+http://purl.obolibrary.org/obo/DRON_00021698
+http://purl.obolibrary.org/obo/DRON_00021832
+http://purl.obolibrary.org/obo/DRON_00027809
+http://purl.obolibrary.org/obo/DRON_00031783
+http://purl.obolibrary.org/obo/DRON_00021977
+http://purl.obolibrary.org/obo/DRON_00026599
+http://purl.obolibrary.org/obo/DRON_00022009
+http://purl.obolibrary.org/obo/DRON_00020620
+http://purl.obolibrary.org/obo/DRON_00020621
+http://purl.obolibrary.org/obo/DRON_00082933
+http://purl.obolibrary.org/obo/DRON_00020645
+http://purl.obolibrary.org/obo/DRON_00022291
+http://purl.obolibrary.org/obo/DRON_00022309
+http://purl.obolibrary.org/obo/DRON_00022497
+http://purl.obolibrary.org/obo/DRON_00024436
+http://purl.obolibrary.org/obo/DRON_00030440
+http://purl.obolibrary.org/obo/DRON_00030440
+http://purl.obolibrary.org/obo/DRON_00023469
+http://purl.obolibrary.org/obo/DRON_00022828
+http://purl.obolibrary.org/obo/DRON_00022867
+http://purl.obolibrary.org/obo/DRON_00022898
+http://purl.obolibrary.org/obo/DRON_00075444
+http://purl.obolibrary.org/obo/DRON_00072660
+http://purl.obolibrary.org/obo/DRON_00023427
+http://purl.obolibrary.org/obo/DRON_00020336
+http://purl.obolibrary.org/obo/DRON_00025748
+http://purl.obolibrary.org/obo/DRON_00020736
+http://purl.obolibrary.org/obo/DRON_00020516
+http://purl.obolibrary.org/obo/DRON_00020539
+http://purl.obolibrary.org/obo/DRON_00020868
+http://purl.obolibrary.org/obo/DRON_00034152
+http://purl.obolibrary.org/obo/DRON_00034236
+http://purl.obolibrary.org/obo/DRON_00025810
+http://purl.obolibrary.org/obo/DRON_00023989
+http://purl.obolibrary.org/obo/DRON_00021872
+http://purl.obolibrary.org/obo/DRON_00030435
+http://purl.obolibrary.org/obo/DRON_00025223
+http://purl.obolibrary.org/obo/DRON_00020635
+http://purl.obolibrary.org/obo/DRON_00030779
+http://purl.obolibrary.org/obo/DRON_00022253
+http://purl.obolibrary.org/obo/DRON_00022437
+http://purl.obolibrary.org/obo/DRON_00022460
+http://purl.obolibrary.org/obo/DRON_00023210
+http://purl.obolibrary.org/obo/DRON_00026688
+http://purl.obolibrary.org/obo/DRON_00030017
+http://purl.obolibrary.org/obo/DRON_00025779
+http://purl.obolibrary.org/obo/DRON_00034279
+http://purl.obolibrary.org/obo/DRON_00023613
+http://purl.obolibrary.org/obo/DRON_00020493
+http://purl.obolibrary.org/obo/DRON_00020458 
+http://purl.obolibrary.org/obo/DRON_00032163 
+http://purl.obolibrary.org/obo/DRON_00031282 
+http://purl.obolibrary.org/obo/DRON_00027809 
+http://purl.obolibrary.org/obo/DRON_00020444 
+http://purl.obolibrary.org/obo/DRON_00021976 
+http://purl.obolibrary.org/obo/DRON_00024022
+http://purl.obolibrary.org/obo/DRON_00026857 
+http://purl.obolibrary.org/obo/DRON_00027964 
+http://purl.obolibrary.org/obo/DRON_00022231 
+http://purl.obolibrary.org/obo/DRON_00024027 
+http://purl.obolibrary.org/obo/DRON_00022291 
+http://purl.obolibrary.org/obo/DRON_00022395 
+http://purl.obolibrary.org/obo/DRON_00022517 
+
+# http://purl.obolibrary.org/obo/DRON_00010073  #Acitretin -- obsolete
+http://purl.obolibrary.org/obo/DRON_00020493 #A citretin Oral Capsule
+
+# http://purl.obolibrary.org/obo/DRON_00010056 # fluticasone (flonase) --> DRON_00027823
+http://purl.obolibrary.org/obo/DRON_00027823  # fluticasone Nasal Suspension
+
+# http://purl.obolibrary.org/obo/DRON_00010064 # CARMUSTINE (BiCNU)
+ http://purl.obolibrary.org/obo/DRON_00020458  # Carmustine Injectable Solution  
+
+# http://purl.obolibrary.org/obo/DRON_00010807 # fluvastatin
+http://purl.obolibrary.org/obo/DRON_00021976 # fluvastatin Oral Capsule
+
+# http://purl.obolibrary.org/obo/DRON_00010977 # lomefloxacin
+ http://purl.obolibrary.org/obo/DRON_00022291 # lomefloxacin Oral Tablet
+
+# http://purl.obolibrary.org/obo/DRON_00011101 # METOLAZONE (Mykrox, Zaroxolyn)
+http://purl.obolibrary.org/obo/DRON_00022517 # Metolazone Oral Tablet
+ 
+# http://purl.obolibrary.org/obo/DRON_00011898 # linezolid (zyvox)
+http://purl.obolibrary.org/obo/DRON_00024027 # linezolid Oral Tablet
+
+# http://purl.obolibrary.org/obo/DRON_00012011 # lamivudine (Epivir not iamivudine)
+http://purl.obolibrary.org/obo/DRON_00022231 # Lamivudine Oral Tablet
+
+# http://purl.obolibrary.org/obo/DRON_00013595 #  histrelin (Vantas: histrelin acetate) 
+ http://purl.obolibrary.org/obo/DRON_00026857 # histrelin Injectable Solution
+
+# http://purl.obolibrary.org/obo/DRON_00014160 # fludarabine (fludara)
+ http://purl.obolibrary.org/obo/DRON_00027809 # fludarabine Oral Tablet
+
+# http://purl.obolibrary.org/obo/DRON_00018454 # imatinib
+ http://purl.obolibrary.org/obo/DRON_00027964 # imatinib Oral Tablet
+
+# http://purl.obolibrary.org/obo/DRON_00018832 # EMTRICITABINE (emtriva)
+http://purl.obolibrary.org/obo/DRON_00031282 # emtricitabine Oral Tablet
+
+# http://purl.obolibrary.org/obo/DRON_00019022 # certolizumab pegol (cimzia)
+http://purl.obolibrary.org/obo/DRON_00032559 # certolizumab pegol Prefilled Syringe
+
+
+
+http://purl.obolibrary.org/obo/DRON_00020324 # function-inhibiting hydrogen/potassium adenosine triphosphatase enzyme (H+/K+ ATPase) binding disposition
+http://purl.obolibrary.org/obo/DRON_00020325 # function-inhibiting L-type voltage-gated calcium channel binding disposition
+http://purl.obolibrary.org/obo/DRON_00020323 # non-activating competitive beta-adrenergic receptor binding disposition
+http://purl.obolibrary.org/obo/DRON_00000001 # clinical drug role
+
+
+http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+http://purl.obolibrary.org/obo/DRON_00000005 #drug product
+http://purl.obolibrary.org/obo/CHEBI_59999 #chemical substance
+http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ifomis.org/bfo/1.1#Entity
+
+http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity 
+
+http://purl.obolibrary.org/obo/DRON_00000005 #drug product
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity 
+
+http://purl.obolibrary.org/obo/DRON_00020324 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+
+http://purl.obolibrary.org/obo/DRON_00020325 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+
+http://purl.obolibrary.org/obo/DRON_00020323 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+
+http://purl.obolibrary.org/obo/DRON_00000001 # clinical drug role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+
+http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000030 #object
+
+http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000030 #object
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

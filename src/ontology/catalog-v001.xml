@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/odnae/DroN_add_info.owl" uri="DrON_add_info.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="DrON_add_info.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/odnae/ontorat_out.owl" uri="odnae_ontorat_out.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/odnae/DrON_import.owl" uri="DrON_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/odnae/OBI_import.owl" uri="OBI_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/odnae/NDFRT_import.owl" uri="NDFRT_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/odnae/RO_import.owl" uri="RO_import.owl"/>
+    <uri id="Imports Wizard Entry" name="chttp://purl.obolibrary.org/obo/odnae/NDF-RT_import.owl." uri="NDFRT_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="odnae_ontorat_out.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="odnae_ontorat_data.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/odnae/OAE_import.owl" uri="OAE_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/odnae/BFO_import.owl" uri="OAE_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/admo/BFO_import.owl" uri="BFO_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/odnae/DrON_import.owl." uri="DrON_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oae/ODNAE/NDF-RT_import.owl" uri="NDF-RT_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oae/ODNAE/GO_import.owl" uri="GO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oae/ODNAE/CHEBI_import.owl" uri="CHEBI_import.owl"/>
+</catalog>

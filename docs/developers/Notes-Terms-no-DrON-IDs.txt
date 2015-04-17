@@ -1,0 +1,6 @@
+iopromide (Ultravist)-associated neuropathy AE	iopromide (ultravist) 	no ID	N0000148411 	RXNORM/27781	CHEBI_63578	Radiopharmaceutical Activity [MoA]				http://www.accessdata.fda.gov/drugsatfda_docs/label/2010/021425s017lbl.pdf	neuropathy	http://purl.obolibrary.org/obo/OAE_0000418	iopromide (Ultravist)-associated neuropathy AE	
+
+interferon alfa-2a, recombinant (Roferon A)-associated neuropathy AE	interferon alfa-2a,recombinant (Roferon A)	no ID	N0000020127	RXNORM/754459	CHEBI_63603 	Biological Response Modifiers [MoA]		negative regulation of mitosis; viral genome replication	GO_0045839; GO_0019079	http://www.accessdata.fda.gov/drugsatfda_docs/label/2006/103145s5060LBL.pdf	neuropathy	http://purl.obolibrary.org/obo/OAE_0000418	interferon alfa-2a, recombinant (Roferon A)-associated neuropathy AE	
+
+
+sumatriptan succinate (Imitrex, Sumavel DosePro, Alsuma, Zecuity)-associated ischemic optic neuropathy AE	SUMATRIPTAN SUCCINATE	no ID	N0000148323 	RXNORM/67158	CHEBI_64359 	has_MoA some Serotonin Agonists [MoA]		positive regulation of serotonin secretion	GO_0014064 	http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fee7d073-0b99-48f2-7985-0d8cf970894b#nlm34084-4	ischemic optic neuropathy	http://purl.obolibrary.org/obo/OAE_0002056	sumatriptan succinate (Imitrex, Sumavel DosePro, Alsuma, Zecuity)-associated ischemic optic neuropathy AE	

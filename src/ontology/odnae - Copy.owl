@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;odnae.owl#"
+     xml:base="&obo;odnae.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="&obo;odnae.owl">
+        <dc:creator>Abra Guo</dc:creator>
+        <dc:date>2015-04-17</dc:date>
+        <dc:subject xml:lang="en">An ontology for the annotation of the adverse event domain.</dc:subject>
+        <dc:description xml:lang="en">ODNAE is an extension of OAE with a focus on drug-associated neuropathy adverse events.</dc:description>
+        <dc:title xml:lang="en">ODNAE: Ontology of Drug Neuropathy Adverse Events</dc:title>
+        <dc:format xml:lang="en">OWL-DL</dc:format>
+        <obo:IAO_0000116 xml:lang="en">Product version</obo:IAO_0000116>
+        <dc:creator xml:lang="en">Rebecca Racz</dc:creator>
+        <owl:versionInfo xml:lang="en">Vision Release; 1.0.03</owl:versionInfo>
+        <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
+        <owl:imports rdf:resource="&obo;admo/BFO_import.owl"/>
+        <owl:imports rdf:resource="&obo;odnae/BFO_import.owl"/>
+        <owl:imports rdf:resource="&obo;odnae/DrON_import.owl"/>
+        <owl:imports rdf:resource="&obo;odnae/NDFRT_import.owl"/>
+        <owl:imports rdf:resource="&obo;odnae/OAE_import.owl"/>
+        <owl:imports rdf:resource="&obo;odnae/OBI_import.owl"/>
+        <owl:imports rdf:resource="&obo;odnae/RO_import.owl"/>
+        <owl:imports rdf:resource="&obo;odnae/ontorat_out.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000001 -->
+
+    <owl:Class rdf:about="&obo;ODNAE_0000001">
+        <rdfs:label xml:lang="en">drug-associated neuropathy adverse event</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0000001"/>
+        <obo:IAO_0000117>YH, RR</obo:IAO_0000117>
+        <obo:IAO_0000115>a neuropathy adverse event that is associated with a drug.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000003 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000003">
+        <rdfs:label>drug-associated mixed neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0002557"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000004 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000004">
+        <rdfs:label>drug-associated peripheral neuropathy adverse event</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0000337"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000005 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000005">
+        <rdfs:label>drug-associated motor neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0000168"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000006 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000006">
+        <rdfs:label>drug-associated neuritis neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0000625"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000007 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000007">
+        <rdfs:label>drug-associated optic neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0002553"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000008 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000008">
+        <rdfs:label>drug-associated diabetic neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0002560"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000009 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000009">
+        <rdfs:label>drug-associated neuroretinitis neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0002554"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000010 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000010">
+        <rdfs:label>drug-associated polyneuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0000169"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000011 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000011">
+        <rdfs:label>drug-associated sensory neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0000162"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000012 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000012">
+        <rdfs:label>drug-associated neurotoxicity neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0001215"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000013 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000013">
+        <rdfs:label>drug-associated peripheral sensory neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0001288"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000014 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000014">
+        <rdfs:label>drug-associated sensory peripheral polyneuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0002558"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000015 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000015">
+        <rdfs:label>drug-associated peripheral sensorimotor neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0001287"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000016 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000016">
+        <rdfs:label>drug-associated peripheral demyelinating polyneuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0002559"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000017 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000017">
+        <rdfs:label>drug-associated anterior ischemic optic neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0002555"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000018 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000018">
+        <rdfs:label>drug-associated non-arteritic anterior ischemic optic neuropathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0002556"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000019 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000019">
+        <rdfs:label>drug-associated carpal tunnel syndrome AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0002005"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000020 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000020">
+        <rdfs:label>drug-associated neurological deficit AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0002561"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ODNAE_0000022 -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000022">
+        <rdfs:label>drug-associated paresthesia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0000392"/>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&obo;ODNAE_0000002">
+        <rdfs:label>role in cellular and molecular interactions</rdfs:label>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
