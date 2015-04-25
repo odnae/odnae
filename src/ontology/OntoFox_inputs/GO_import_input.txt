@@ -1,0 +1,74 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/odnae/GO_import.owl
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0010804
+http://purl.obolibrary.org/obo/GO_0033602 
+http://purl.obolibrary.org/obo/GO_0046318
+http://purl.obolibrary.org/obo/GO_0051344
+http://purl.obolibrary.org/obo/GO_0051585
+http://purl.obolibrary.org/obo/GO_0051612
+http://purl.obolibrary.org/obo/GO_0051624 
+http://purl.obolibrary.org/obo/GO_0051926
+http://purl.obolibrary.org/obo/GO_1900078 
+http://purl.obolibrary.org/obo/GO_2000372 
+http://purl.obolibrary.org/obo/GO_2000476 
+http://purl.obolibrary.org/obo/GO_2000824
+http://purl.obolibrary.org/obo/GO_2001216
+
+#
+http://purl.obolibrary.org/obo/GO_0006355
+http://purl.obolibrary.org/obo/GO_0009892
+http://purl.obolibrary.org/obo/GO_0009966
+http://purl.obolibrary.org/obo/GO_0010629
+http://purl.obolibrary.org/obo/GO_0010647
+http://purl.obolibrary.org/obo/GO_0010648
+http://purl.obolibrary.org/obo/GO_0023056
+http://purl.obolibrary.org/obo/GO_0023057
+http://purl.obolibrary.org/obo/GO_0031324
+http://purl.obolibrary.org/obo/GO_0031327
+http://purl.obolibrary.org/obo/GO_0033143
+http://purl.obolibrary.org/obo/GO_0034248
+http://purl.obolibrary.org/obo/GO_0048523
+http://purl.obolibrary.org/obo/GO_0048585
+http://purl.obolibrary.org/obo/GO_0050789
+http://purl.obolibrary.org/obo/GO_0050790
+http://purl.obolibrary.org/obo/GO_0050804
+http://purl.obolibrary.org/obo/GO_0051048
+http://purl.obolibrary.org/obo/GO_0051049
+http://purl.obolibrary.org/obo/GO_0051055
+http://purl.obolibrary.org/obo/GO_0051172
+http://purl.obolibrary.org/obo/GO_0051588
+http://purl.obolibrary.org/obo/GO_0051952
+http://purl.obolibrary.org/obo/GO_0060759
+http://purl.obolibrary.org/obo/GO_0065009
+http://purl.obolibrary.org/obo/GO_0090153
+http://purl.obolibrary.org/obo/GO_1903507
+http://purl.obolibrary.org/obo/GO_1903530
+http://purl.obolibrary.org/obo/GO_2000113
+http://purl.obolibrary.org/obo/GO_0045934
+http://purl.obolibrary.org/obo/GO_0051252
+http://purl.obolibrary.org/obo/GO_0080090 
+
+
+
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+# http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
+# http://purl.obolibrary.org/obo/GO_0005575 #cellular component
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
