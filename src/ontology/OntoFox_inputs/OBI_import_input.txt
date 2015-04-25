@@ -5,10 +5,13 @@ http://purl.obolibrary.org/obo/oae/OBI_import.owl
 OBI
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/OBI_0100026 #organism -- OAE has got it.
+http://purl.obolibrary.org/obo/OBI_0000576 #scattered molecular aggregate
 http://purl.obolibrary.org/obo/OBI_0000047 #processed material
-http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
+
+
 http://purl.obolibrary.org/obo/OBI_0000298 #has_quality
+http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input  -- OAE has got it.
 http://purl.obolibrary.org/obo/OBI_0000299 #has_specified_output
 http://purl.obolibrary.org/obo/OBI_0000300 #is_realized_by
 http://purl.obolibrary.org/obo/OBI_0000306 #has_function
@@ -16,14 +19,20 @@ http://purl.obolibrary.org/obo/OBI_0000308 #realizes
 http://purl.obolibrary.org/obo/OBI_0000316 #has_role
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001
+http://purl.obolibrary.org/obo/OBI_0100026 #organism 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+http://purl.obolibrary.org/obo/OBI_0000576 #scattered molecular aggregate
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+http://purl.obolibrary.org/obo/OBI_0000047 #processed material
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeComputedIntermediates
 
 [Branch extractions from source term URIs and target direct superclass URIs]
 
 
 [Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115 
+includeAllAnnotationProperties

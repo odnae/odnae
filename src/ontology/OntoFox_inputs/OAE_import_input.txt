@@ -16,7 +16,6 @@ http://purl.obolibrary.org/obo/OAE_0000625
 http://purl.obolibrary.org/obo/OAE_0001215
 http://purl.obolibrary.org/obo/OAE_0001287
 http://purl.obolibrary.org/obo/OAE_0002005
-http://purl.obolibrary.org/obo/OAE_0002056
 http://purl.obolibrary.org/obo/OAE_0002553
 http://purl.obolibrary.org/obo/OAE_0002554
 http://purl.obolibrary.org/obo/OAE_0002555
@@ -27,9 +26,17 @@ http://purl.obolibrary.org/obo/OAE_0002559
 http://purl.obolibrary.org/obo/OAE_0002560
 http://purl.obolibrary.org/obo/OAE_0002561
 http://purl.obolibrary.org/obo/OAE_0000001
-http://purl.obolibrary.org/obo/BFO_0000062 #preceded by
 http://purl.obolibrary.org/obo/OAE_0000011 #drug administration
+
+http://purl.obolibrary.org/obo/BFO_0000062 #preceded by
 http://purl.obolibrary.org/obo/BFO_0000057 # has participant 
+http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/BFO_0000030 #object
+http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://purl.obolibrary.org/obo/BFO_0000023 #role
+
+
+#http://purl.obolibrary.org/obo/OAE_0002056
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001

@@ -21,16 +21,15 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;odnae.owl">
         <dc:creator>Abra Guo</dc:creator>
-        <dc:date>2015-04-17</dc:date>
+        <dc:date>2015-04-25</dc:date>
         <dc:subject xml:lang="en">An ontology for the annotation of the adverse event domain.</dc:subject>
         <dc:description xml:lang="en">ODNAE is an extension of OAE with a focus on drug-associated neuropathy adverse events.</dc:description>
         <dc:title xml:lang="en">ODNAE: Ontology of Drug Neuropathy Adverse Events</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <obo:IAO_0000116 xml:lang="en">Product version</obo:IAO_0000116>
         <dc:creator xml:lang="en">Rebecca Racz</dc:creator>
-        <owl:versionInfo xml:lang="en">Vision Release; 1.0.03</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release; 1.0.04</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
-        <owl:imports rdf:resource="&obo;admo/BFO_import.owl"/>
         <owl:imports rdf:resource="&obo;odnae/BFO_import.owl"/>
         <owl:imports rdf:resource="&obo;odnae/DrON_import.owl"/>
         <owl:imports rdf:resource="&obo;odnae/DroN_add_info.owl"/>
