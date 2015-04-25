@@ -10,13 +10,16 @@ http://purl.obolibrary.org/obo/OBI_0000576 #scattered molecular aggregate
 http://purl.obolibrary.org/obo/OBI_0000047 #processed material
 
 
-http://purl.obolibrary.org/obo/OBI_0000298 #has_quality
+
 http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input  -- OAE has got it.
 http://purl.obolibrary.org/obo/OBI_0000299 #has_specified_output
-http://purl.obolibrary.org/obo/OBI_0000300 #is_realized_by
-http://purl.obolibrary.org/obo/OBI_0000306 #has_function
-http://purl.obolibrary.org/obo/OBI_0000308 #realizes
-http://purl.obolibrary.org/obo/OBI_0000316 #has_role
+
+# the following relations are all obsolete.
+# http://purl.obolibrary.org/obo/OBI_0000300 #is_realized_by
+# http://purl.obolibrary.org/obo/OBI_0000306 #has_function
+# http://purl.obolibrary.org/obo/OBI_0000308 #realizes
+# http://purl.obolibrary.org/obo/OBI_0000316 #has_role
+# http://purl.obolibrary.org/obo/OBI_0000298 #has_quality
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBI_0100026 #organism 
