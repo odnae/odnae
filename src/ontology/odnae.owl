@@ -20,19 +20,24 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;odnae.owl">
+        <dc:contributor>Junguk Hur</dc:contributor>
         <dc:creator>Abra Guo</dc:creator>
-        <dc:date>2015-04-25</dc:date>
+        <dc:contributor>Jane Bane</dc:contributor>
+        <dc:contributor>Yu Lin</dc:contributor>
+        <dc:date>2015-04-26</dc:date>
         <dc:subject xml:lang="en">An ontology for the annotation of the adverse event domain.</dc:subject>
+        <dc:contributor>Guoqian Jiang</dc:contributor>
         <dc:description xml:lang="en">ODNAE is an extension of OAE with a focus on drug-associated neuropathy adverse events.</dc:description>
         <dc:title xml:lang="en">ODNAE: Ontology of Drug Neuropathy Adverse Events</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <obo:IAO_0000116 xml:lang="en">Product version</obo:IAO_0000116>
         <dc:creator xml:lang="en">Rebecca Racz</dc:creator>
-        <owl:versionInfo xml:lang="en">Vision Release; 1.0.04</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release; 1.0.08</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <owl:imports rdf:resource="&obo;odnae/BFO_import.owl"/>
         <owl:imports rdf:resource="&obo;odnae/DrON_import.owl"/>
         <owl:imports rdf:resource="&obo;odnae/DroN_add_info.owl"/>
+        <owl:imports rdf:resource="&obo;odnae/GO_import.owl"/>
         <owl:imports rdf:resource="&obo;odnae/NDFRT_import.owl"/>
         <owl:imports rdf:resource="&obo;odnae/OAE_import.owl"/>
         <owl:imports rdf:resource="&obo;odnae/OBI_import.owl"/>
@@ -53,10 +58,179 @@
     
 
 
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000102 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000102">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0051624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000109 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000109">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0051612"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000114 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000114">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0051585"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000121 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000121">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_2001216"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000174 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000174">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_2000476"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000176 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000176">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_2000372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000225 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000225">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_1900078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000230 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000230">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0033602"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000243 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000243">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_2000824"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020019 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020019">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0046318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020026 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020026">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0051344"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020065 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020065">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0051926"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175446 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175446">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0010804"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ODNAE_0000001 -->
 
     <owl:Class rdf:about="&obo;ODNAE_0000001">
-        <rdfs:label xml:lang="en">drug-associated neuropathy adverse event</rdfs:label>
+        <rdfs:label xml:lang="en">drug-associated neuropathy AE</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OAE_0000001"/>
         <obo:IAO_0000117>YH, RR</obo:IAO_0000117>
         <obo:IAO_0000115>a neuropathy adverse event that is associated with a drug.</obo:IAO_0000115>

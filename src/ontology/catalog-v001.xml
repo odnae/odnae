@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/odnae/GO_import.owl" uri="GO_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/odnae/DroN_add_info.owl" uri="DrON_add_info.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="DrON_add_info.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/odnae/ontorat_out.owl" uri="odnae_ontorat_out.owl"/>
