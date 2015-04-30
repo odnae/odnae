@@ -1,0 +1,179 @@
+# SPARQL query for searching all ODNAE drugs link to MoAs : subClassOf http://purl.obolibrary.org/obo/ODNAE_0000002 (role in cellular and molecular interactions)
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?s ?label
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://purl.obolibrary.org/obo/ODNAE_0000002>  option (transitive).  
+}
+
+# results in total 162 drugs: (run on http://sparql.hegroup.org/sparql/, at 10:03 4/30/2015 by Asiyah Yu Lin)
+
+ s 	label
+http://purl.obolibrary.org/obo/DRON_00020539 	anastrozole Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022714 	Nitrofurantoin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023619 	tolcapone Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00024356 	exemestane Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00024830 	cefepime Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00030440 	Nitrofurantoin Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00025837 	oxaliplatin Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00020516 	Amantadine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00030435 	Flecainide Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00025863 	rituximab Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00014193 	enfuvirtide
+http://purl.obolibrary.org/obo/DRON_00021860 	Etidronate Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00014630 	Chlorambucil
+http://purl.obolibrary.org/obo/DRON_00020458 	Carmustine Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00020736 	Altretamine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00025777 	Ifosfamide Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00020635 	Iopamidol Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00027879 	bortezomib Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00022867 	Penicillin V Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00034441 	penicillin G benzathine 115 MG/ML Oral Solution
+http://purl.obolibrary.org/obo/DRON_00023363 	Selegiline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021698 	Disulfiram Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023323 	rivastigmine Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00020504 	Allopurinol Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020625 	Indomethacin Oral Suspension
+http://purl.obolibrary.org/obo/DRON_00022757 	olsalazine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023479 	Sulfasalazine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023623 	Tolmetin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00018093 	doxorubicin liposome
+http://purl.obolibrary.org/obo/DRON_00019850 	Cytarabine liposome
+http://purl.obolibrary.org/obo/DRON_00021832 	Ethambutol Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021872 	Etoposide Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021999 	Ganciclovir Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00022238 	leflunomide Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00024052 	valganciclovir Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00025299 	Cisplatin Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00025622 	gemcitabine Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00025810 	Cladribine Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00026729 	Carboplatin Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00027809 	fludarabine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00072660 	Procarbazine 50 MG Oral Capsule [Matulane]
+http://purl.obolibrary.org/obo/DRON_00020653 	Itraconazole Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021934 	Fluconazole Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00026895 	voriconazole Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021489 	Dapsone Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023469 	Sulfamethizole Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022460 	Methimazole Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023204 	Propylthiouracil Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021937 	Flucytosine Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00024027 	linezolid Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00025623 	docetaxel Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00030017 	Streptomycin Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00020336 	Triamcinolone Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020337 	Dexamethasone Ophthalmic Ointment
+http://purl.obolibrary.org/obo/DRON_00022495 	Methylprednisolone Topical Ointment
+http://purl.obolibrary.org/obo/DRON_00022497 	Methylprednisolone Injectable Suspension
+http://purl.obolibrary.org/obo/DRON_00022275 	Lisinopril Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023278 	Ramipril Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00059074 	Enalapril Maleate 2.5 MG Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00018681 	Atazanavir
+http://purl.obolibrary.org/obo/DRON_00030385 	Saquinavir Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00033154 	Ritonavir Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00010568 	Delavirdine
+http://purl.obolibrary.org/obo/DRON_00021599 	Didanosine Chewable Tablet
+http://purl.obolibrary.org/obo/DRON_00021749 	efavirenz Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00022231 	Lamivudine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022663 	Nevirapine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023447 	Stavudine Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00023783 	Zidovudine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00025587 	Foscarnet Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00027215 	Zalcitabine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021113 	capecitabine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021951 	Fluorouracil Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00022468 	Methotrexate Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00027976 	pemetrexed Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00020601 	hydroxyurea Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00014197 	gemifloxacin
+http://purl.obolibrary.org/obo/DRON_00021345 	Ciprofloxacin Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021347 	Ciprofloxacin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022254 	Levofloxacin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022291 	lomefloxacin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022733 	Norfloxacin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022754 	Ofloxacin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00024020 	moxifloxacin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00024436 	Mitoxantrone Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00025779 	Teniposide Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00031788 	Topotecan Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00025297 	rofecoxib Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00026893 	valdecoxib Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00027865 	Miglustat Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00023379 	sildenafil Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00026894 	vardenafil Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00027893 	tadalafil Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022859 	Penicillamine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023452 	Succimer Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00020394 	Colchicine / Probenecid Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00025774 	vinorelbine Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00024071 	peginterferon alfa-2b Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00025748 	Aldesleukin Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00022517 	Metolazone Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021114 	Capsaicin Topical Solution
+http://purl.obolibrary.org/obo/DRON_00022309 	Losartan Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020523 	Amiodarone Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023012 	Phenytoin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023632 	topiramate Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00026716 	ropivacaine Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00024010 	zaleplon Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00053744 	Leuprolide Acetate 5 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00012997 	basiliximab
+http://purl.obolibrary.org/obo/DRON_00013678 	cevimeline
+http://purl.obolibrary.org/obo/DRON_00018691 	aprepitant
+http://purl.obolibrary.org/obo/DRON_00023781 	zafirlukast Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00026889 	montelukast Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022889 	Pergolide Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023325 	ropinirole Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00031753 	Pramipexole Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022073 	Haloperidol Oral Solution
+http://purl.obolibrary.org/obo/DRON_00024045 	ziprasidone Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021897 	Fentanyl Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00013763 	eletriptan
+http://purl.obolibrary.org/obo/DRON_00018348 	almotriptan
+http://purl.obolibrary.org/obo/DRON_00023808 	zolmitriptan Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00027279 	Triptorelin Injectable Suspension
+http://purl.obolibrary.org/obo/DRON_00022828 	pantoprazole Enteric Coated Tablet
+http://purl.obolibrary.org/obo/DRON_00027818 	Omeprazole Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00030779 	lansoprazole Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00082933 	Insulin, Protamine Zinc, Human 40 UNT/ML Injectable Suspension [ProZinc]
+http://purl.obolibrary.org/obo/DRON_00025763 	Paclitaxel Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00010449 	Cerivastatin sodium
+http://purl.obolibrary.org/obo/DRON_00020565 	atorvastatin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021976 	fluvastatin Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00022310 	Lovastatin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023118 	Pravastatin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023396 	Simvastatin Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00031159 	tenofovir disoproxil Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00025255 	Deferoxamine Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00018756 	erlotinib
+http://purl.obolibrary.org/obo/DRON_00025843 	trastuzumab Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00026665 	Bupropion Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020525 	Amitriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020620 	Imipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020621 	Imipramine Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021386 	Clomipramine Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021503 	Desipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022739 	Nortriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023210 	Protriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023704 	Trimipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023742 	venlafaxine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021977 	Fluvoxamine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00027059 	Paroxetine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00012887 	infliximab
+http://purl.obolibrary.org/obo/DRON_00023809 	zolpidem Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020528 	Amlodipine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021629 	Diltiazem Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023504 	Tamoxifen Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023612 	tizanidine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023427 	Sotalol Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020955 	Betaxolol Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00027964 	imatinib Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00027823 	fluticasone Nasal Suspension
+http://purl.obolibrary.org/obo/DRON_00022385 	Megestrol Oral Suspension
+http://purl.obolibrary.org/obo/DRON_00020960 	bicalutamide Oral Tablet

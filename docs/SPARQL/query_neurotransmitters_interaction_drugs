@@ -1,0 +1,109 @@
+# SPARQL query for searching the ODNAE drugs annotated with Neurotransmitter Transporter Interactions [MoA] (<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000105>) and its subclasses.
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?s ?label
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000105>  option (transitive).  
+}
+
+# results in total 12 drugs: (run on http://sparql.hegroup.org/sparql/, at 8:56 4/30/2015 by Asiyah Yu Lin)
+
+s 	label
+http://purl.obolibrary.org/obo/DRON_00026665 	Bupropion Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020525 	Amitriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020620 	Imipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020621 	Imipramine Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021386 	Clomipramine Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021503 	Desipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022739 	Nortriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023210 	Protriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023704 	Trimipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023742 	venlafaxine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021977 	Fluvoxamine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00027059 	Paroxetine Oral Tablet
+
+
+
+# SPARQL query for searching the ODNAE drugs annotated with Dopamine Transporter Interactions [MoA] (<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000219>) and its subclasses.
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?s ?label
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000219>  option (transitive).  
+}
+
+# results in total 1 drug: (run on http://sparql.hegroup.org/sparql/, at 8:59 4/30/2015 by Asiyah Yu Lin)
+
+s 	label
+http://purl.obolibrary.org/obo/DRON_00026665 	Bupropion Oral Tablet
+
+
+# SPARQL query for searching the ODNAE drugs annotated with Norepinephrine Transporter Interactions [MoA] (<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000234>) and its subclasses.
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?s ?label
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000234>  option (transitive).  
+}
+
+# results in total 10 drug: (run on http://sparql.hegroup.org/sparql/, at 8:59 4/30/2015 by Asiyah Yu Lin)
+
+s 	label
+http://purl.obolibrary.org/obo/DRON_00020525 	Amitriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020620 	Imipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020621 	Imipramine Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021386 	Clomipramine Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021503 	Desipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022739 	Nortriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023210 	Protriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023704 	Trimipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023742 	venlafaxine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00026665 	Bupropion Oral Tablet
+
+
+# SPARQL query for searching the ODNAE drugs annotated with Serotonin Transporter Interactions [MoA] (<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000167>) and its subclasses.
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?s ?label
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000167>  option (transitive).  
+}
+
+# results in total 11 drug: (run on http://sparql.hegroup.org/sparql/, at 9:05 4/30/2015 by Asiyah Yu Lin)
+
+s 	label
+http://purl.obolibrary.org/obo/DRON_00020525 	Amitriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020620 	Imipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020621 	Imipramine Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021386 	Clomipramine Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021503 	Desipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021977 	Fluvoxamine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022739 	Nortriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023210 	Protriptyline Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023704 	Trimipramine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023742 	venlafaxine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00027059 	Paroxetine Oral Tablet

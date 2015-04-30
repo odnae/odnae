@@ -1,0 +1,152 @@
+# SPARQL query for searching the ODNAE drugs are agonists and antagonists
+
+
+
+# 1. drugs link to agonist 
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?s ?label
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://purl.obolibrary.org/obo/ODNAE_0000002>  option (transitive).  
+  ?s2 rdfs:label ?label2 .
+  FILTER REGEX(str(?label2), "Agonist")
+}
+
+# results in total 17 drugs: (run on http://sparql.hegroup.org/sparql/, at 9:56 4/30/2015 by Asiyah Yu Lin)
+
+
+s 	label
+http://purl.obolibrary.org/obo/DRON_00013678 	cevimeline
+http://purl.obolibrary.org/obo/DRON_00022889 	Pergolide Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023325 	ropinirole Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00031753 	Pramipexole Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021897 	Fentanyl Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00013763 	eletriptan
+http://purl.obolibrary.org/obo/DRON_00018348 	almotriptan
+http://purl.obolibrary.org/obo/DRON_00023808 	zolmitriptan Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00027279 	Triptorelin Injectable Suspension
+http://purl.obolibrary.org/obo/DRON_00082933 	Insulin, Protamine Zinc, Human 40 UNT/ML Injectable Suspension [ProZinc]
+http://purl.obolibrary.org/obo/DRON_00023612 	tizanidine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020336 	Triamcinolone Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020337 	Dexamethasone Ophthalmic Ointment
+http://purl.obolibrary.org/obo/DRON_00022495 	Methylprednisolone Topical Ointment
+http://purl.obolibrary.org/obo/DRON_00022497 	Methylprednisolone Injectable Suspension
+http://purl.obolibrary.org/obo/DRON_00027823 	fluticasone Nasal Suspension
+http://purl.obolibrary.org/obo/DRON_00022385 	Megestrol Oral Suspension
+
+
+
+
+
+# 2. The agnoist that links to ODNAE drugs
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?s2 ?label2
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://purl.obolibrary.org/obo/ODNAE_0000002>  option (transitive).  
+  ?s2 rdfs:label ?label2 .
+  FILTER REGEX(str(?label2), "Agonist")
+}
+
+# results in total 9 agonists: (run on http://sparql.hegroup.org/sparql/, at 9:14 4/30/2015 by Asiyah Yu Lin)
+
+s2 	label2
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000104 	Cholinergic Muscarinic Agonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000117 	Dopamine Agonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000174 	Opioid Agonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000256 	Serotonin Agonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000019993 	Hypothalamic Hormone Receptor Agonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000225 	Insulin Receptor Agonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009918 	Adrenergic alpha2-Agonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000159 	Glucocorticoid Receptor Agonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000185 	Progestational Hormone Receptor Agonists [MoA]
+
+
+
+
+# 3. drugs link to antagonist 
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?s ?label
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://purl.obolibrary.org/obo/ODNAE_0000002>  option (transitive).  
+  ?s2 rdfs:label ?label2 .
+  FILTER REGEX(str(?label2), "Antagonist")
+}
+
+# results in total 16 drugs: (run on http://sparql.hegroup.org/sparql/, at 10:00 4/30/2015 by Asiyah Yu Lin)
+
+s 	label
+http://purl.obolibrary.org/obo/DRON_00022309 	Losartan Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020523 	Amiodarone Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00012997 	basiliximab
+http://purl.obolibrary.org/obo/DRON_00018691 	aprepitant
+http://purl.obolibrary.org/obo/DRON_00023781 	zafirlukast Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00026889 	montelukast Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022073 	Haloperidol Oral Solution
+http://purl.obolibrary.org/obo/DRON_00024045 	ziprasidone Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00018756 	erlotinib
+http://purl.obolibrary.org/obo/DRON_00025843 	trastuzumab Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00020528 	Amlodipine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00021629 	Diltiazem Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023427 	Sotalol Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020955 	Betaxolol Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022385 	Megestrol Oral Suspension
+http://purl.obolibrary.org/obo/DRON_00020960 	bicalutamide Oral Tablet
+
+
+
+4.The antagnoist that links to ODNAE drugs
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?s2 ?label2
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://purl.obolibrary.org/obo/ODNAE_0000002>  option (transitive).  
+  ?s2 rdfs:label ?label2 .
+  FILTER REGEX(str(?label2), "Antagonist")
+}
+
+# results in total 17 antagnoist: (run on http://sparql.hegroup.org/sparql/, at 10:01 4/30/2015 by Asiyah Yu Lin)
+
+s2 	label2
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000070 	Angiotensin 2 Receptor Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000069 	Calcium Channel Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010279 	Interleukin 2 Receptor Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010262 	Neurokinin 1 Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000083 	Leukotriene Receptor Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000230 	Dopamine Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000130 	Serotonin Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020010 	HER1 Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020008 	HER2/Neu/cerbB2 Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000190 	Histamine H1 Receptor Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000161 	Adrenergic beta-Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000099 	Adrenergic alpha-Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020065 	L-Calcium Channel Receptor Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009924 	Adrenergic beta2-Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009923 	Adrenergic beta1-Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000145 	Estrogen Receptor Antagonists [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000243 	Androgen Receptor Antagonists [MoA]
