@@ -12,7 +12,7 @@ WHERE
   ?s2 rdfs:subClassOf <http://purl.obolibrary.org/obo/ODNAE_0000002>  option (transitive).  
 }
 
-# results in total 162 drugs: (run on http://sparql.hegroup.org/sparql/, at 10:03 4/30/2015 by Asiyah Yu Lin)
+# results in total 162 drugs: (run on http://sparql.hegroup.org/sparql/, at 10:03 CST 4/30/2015 by Asiyah Yu Lin)
 
  s 	label
 http://purl.obolibrary.org/obo/DRON_00020539 	anastrozole Oral Tablet

@@ -18,7 +18,7 @@ WHERE
   FILTER REGEX(str(?label2), "Agonist")
 }
 
-# results in total 17 drugs: (run on http://sparql.hegroup.org/sparql/, at 9:56 4/30/2015 by Asiyah Yu Lin)
+# results in total 17 drugs: (run on http://sparql.hegroup.org/sparql/, at 9:56 CST 4/30/2015 by Asiyah Yu Lin)
 
 
 s 	label
@@ -60,7 +60,7 @@ WHERE
   FILTER REGEX(str(?label2), "Agonist")
 }
 
-# results in total 9 agonists: (run on http://sparql.hegroup.org/sparql/, at 9:14 4/30/2015 by Asiyah Yu Lin)
+# results in total 9 agonists: (run on http://sparql.hegroup.org/sparql/, at 9:14 CST 4/30/2015 by Asiyah Yu Lin)
 
 s2 	label2
 http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000104 	Cholinergic Muscarinic Agonists [MoA]
@@ -75,8 +75,46 @@ http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000185 	Progestational Hormon
 
 
 
+#3. drugs and agonist pair:
 
-# 3. drugs link to antagonist 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?label ?label2
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://purl.obolibrary.org/obo/ODNAE_0000002>  option (transitive).  
+  ?s2 rdfs:label ?label2 .
+  FILTER REGEX(str(?label2), "Agonist")
+}
+
+
+# results in 17 drugs and agonist pair: (run on http://sparql.hegroup.org/sparql/, at 10:28 CST 4/30/2015 by Asiyah Yu Lin)
+
+label 	label2
+cevimeline 	Cholinergic Muscarinic Agonists [MoA]
+Pergolide Oral Tablet 	Dopamine Agonists [MoA]
+ropinirole Oral Tablet 	Dopamine Agonists [MoA]
+Pramipexole Oral Tablet 	Dopamine Agonists [MoA]
+Fentanyl Injectable Solution 	Opioid Agonists [MoA]
+eletriptan 	Serotonin Agonists [MoA]
+almotriptan 	Serotonin Agonists [MoA]
+zolmitriptan Oral Tablet 	Serotonin Agonists [MoA]
+Triptorelin Injectable Suspension 	Hypothalamic Hormone Receptor Agonists [MoA]
+Insulin, Protamine Zinc, Human 40 UNT/ML Injectable Suspension [ProZinc] 	Insulin Receptor Agonists [MoA]
+tizanidine Oral Tablet 	Adrenergic alpha2-Agonists [MoA]
+Triamcinolone Oral Tablet 	Glucocorticoid Receptor Agonists [MoA]
+Dexamethasone Ophthalmic Ointment 	Glucocorticoid Receptor Agonists [MoA]
+Methylprednisolone Topical Ointment 	Glucocorticoid Receptor Agonists [MoA]
+Methylprednisolone Injectable Suspension 	Glucocorticoid Receptor Agonists [MoA]
+fluticasone Nasal Suspension 	Glucocorticoid Receptor Agonists [MoA]
+Megestrol Oral Suspension 	Progestational Hormone Receptor Agonists [MoA]
+
+
+# 4. drugs link to antagonist 
 
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 prefix owl: <http://www.w3.org/2002/07/owl#> 
@@ -92,7 +130,7 @@ WHERE
   FILTER REGEX(str(?label2), "Antagonist")
 }
 
-# results in total 16 drugs: (run on http://sparql.hegroup.org/sparql/, at 10:00 4/30/2015 by Asiyah Yu Lin)
+# results in total 16 drugs: (run on http://sparql.hegroup.org/sparql/, at 10:00 CST 4/30/2015 by Asiyah Yu Lin)
 
 s 	label
 http://purl.obolibrary.org/obo/DRON_00022309 	Losartan Oral Tablet
@@ -114,7 +152,7 @@ http://purl.obolibrary.org/obo/DRON_00020960 	bicalutamide Oral Tablet
 
 
 
-4.The antagnoist that links to ODNAE drugs
+# 5.The antagnoist that links to ODNAE drugs
 
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 prefix owl: <http://www.w3.org/2002/07/owl#> 
@@ -130,7 +168,7 @@ WHERE
   FILTER REGEX(str(?label2), "Antagonist")
 }
 
-# results in total 17 antagnoist: (run on http://sparql.hegroup.org/sparql/, at 10:01 4/30/2015 by Asiyah Yu Lin)
+# results in total 17 antagnoist: (run on http://sparql.hegroup.org/sparql/, at 10:01 CST 4/30/2015 by Asiyah Yu Lin)
 
 s2 	label2
 http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000070 	Angiotensin 2 Receptor Antagonists [MoA]
@@ -150,3 +188,73 @@ http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009924 	Adrenergic beta2-Anta
 http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009923 	Adrenergic beta1-Antagonists [MoA]
 http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000145 	Estrogen Receptor Antagonists [MoA]
 http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000243 	Androgen Receptor Antagonists [MoA]
+
+
+
+# 6.Antagonist and drugs pair
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?label ?label2
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://purl.obolibrary.org/obo/ODNAE_0000002>  option (transitive).  
+  ?s2 rdfs:label ?label2 .
+  FILTER REGEX(str(?label2), "Antagonist")
+}
+
+# results in 21 drugs and agonist pair: (run on http://sparql.hegroup.org/sparql/, at 10:28 CST 4/30/2015 by Asiyah Yu Lin)
+
+
+label 	label2
+Losartan Oral Tablet 	Angiotensin 2 Receptor Antagonists [MoA]
+Amiodarone Oral Tablet 	Calcium Channel Antagonists [MoA]
+basiliximab 	Interleukin 2 Receptor Antagonists [MoA]
+aprepitant 	Neurokinin 1 Antagonists [MoA]
+zafirlukast Oral Tablet 	Leukotriene Receptor Antagonists [MoA]
+montelukast Oral Tablet 	Leukotriene Receptor Antagonists [MoA]
+Haloperidol Oral Solution 	Dopamine Antagonists [MoA]
+ziprasidone Oral Capsule 	Dopamine Antagonists [MoA]
+ziprasidone Oral Capsule 	Serotonin Antagonists [MoA]
+erlotinib 	HER1 Antagonists [MoA]
+trastuzumab Injectable Solution 	HER2/Neu/cerbB2 Antagonists [MoA]
+ziprasidone Oral Capsule 	Histamine H1 Receptor Antagonists [MoA]
+Amiodarone Oral Tablet 	Adrenergic beta-Antagonists [MoA]
+ziprasidone Oral Capsule 	Adrenergic alpha-Antagonists [MoA]
+Amlodipine Oral Tablet 	L-Calcium Channel Receptor Antagonists [MoA]
+Diltiazem Oral Tablet 	L-Calcium Channel Receptor Antagonists [MoA]
+Sotalol Oral Tablet 	Adrenergic beta2-Antagonists [MoA]
+Betaxolol Oral Tablet 	Adrenergic beta1-Antagonists [MoA]
+Sotalol Oral Tablet 	Adrenergic beta1-Antagonists [MoA]
+Megestrol Oral Suspension 	Estrogen Receptor Antagonists [MoA]
+bicalutamide Oral Tablet 	Androgen Receptor Antagonists [MoA]
+
+
+#7. drug link to both a kind of agonist and antagonist
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?s ?label ?label2 ?label4
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://purl.obolibrary.org/obo/ODNAE_0000002>  option (transitive).  
+  ?s2 rdfs:label ?label2 .
+  FILTER REGEX(str(?label2), "Agonist")
+  
+  ?s rdfs:subClassOf ?s3 .
+  ?s3 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s4 .
+  ?s4 rdfs:subClassOf <http://purl.obolibrary.org/obo/ODNAE_0000002>  option (transitive).  
+  ?s4 rdfs:label ?label4 .
+  FILTER REGEX(str(?label4), "Antagonist")
+}
+
+# results in 1 drug : (run on http://sparql.hegroup.org/sparql/, at 12:10 CST 4/30/2015 by Asiyah Yu Lin)
