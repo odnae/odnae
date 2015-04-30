@@ -1,0 +1,40 @@
+# SPARQL query for searching the ODNAE drugs annotated with G-Protein-linked Receptor Interactions [MoA] (<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152>) and its subclasses.
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+SELECT distinct ?s ?label
+From <http://purl.obolibrary.org/obo/merged/ODNAE> 
+WHERE
+{ ?s rdfs:subClassOf ?s1 .
+  ?s rdfs:label ?label .
+  ?s1 owl:onProperty obo:RO_0000087; owl:someValuesFrom ?s2 .
+  ?s2 rdfs:subClassOf <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000152>  option (transitive).  
+}
+
+# results: (run on http://sparql.hegroup.org/sparql/, at 8:40 4/30/2015 by Asiyah Yu Lin)
+
+20
+
+
+s 	label
+http://purl.obolibrary.org/obo/DRON_00020516 	Amantadine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022309 	Losartan Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00018691 	aprepitant
+http://purl.obolibrary.org/obo/DRON_00023781 	zafirlukast Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00026889 	montelukast Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00013678 	cevimeline
+http://purl.obolibrary.org/obo/DRON_00022889 	Pergolide Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023325 	ropinirole Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00031753 	Pramipexole Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00022073 	Haloperidol Oral Solution
+http://purl.obolibrary.org/obo/DRON_00024045 	ziprasidone Oral Capsule
+http://purl.obolibrary.org/obo/DRON_00021897 	Fentanyl Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00013763 	eletriptan
+http://purl.obolibrary.org/obo/DRON_00018348 	almotriptan
+http://purl.obolibrary.org/obo/DRON_00023808 	zolmitriptan Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00027279 	Triptorelin Injectable Suspension
+http://purl.obolibrary.org/obo/DRON_00020523 	Amiodarone Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023612 	tizanidine Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00023427 	Sotalol Oral Tablet
+http://purl.obolibrary.org/obo/DRON_00020955 	Betaxolol Oral Tablet
