@@ -1,0 +1,100 @@
+# SPARQL 6.1: This is to find drugs vs AEs that are associated with these drugs.
+# BFO_0000057: has_participant 
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+
+SELECT  ?p_dae ?labelp ?dae ?label1 ?drug ?labeldrug ?s1
+FROM <http://purl.obolibrary.org/obo/merged/ODNAE>
+WHERE {
+    ?dae rdfs:subClassOf ?s1 .
+
+    ?dae rdfs:subClassOf ?p_dae .
+?p_dae a  owl:Class .
+?p_dae rdfs:label ?labelp .
+
+    ?dae rdfs:label ?label1 .
+    ?s1 owl:onProperty obo:BFO_0000057; owl:someValuesFrom ?drug .
+    ?drug rdfs:label ?labeldrug .
+
+FILTER REGEX(str(?p_dae), "OAE") .
+} 
+
+#part of results:
+p_dae	labelp	dae	label1	drug	labeldrug	s1
+http://purl.obolibrary.org/obo/OAE_0000337	peripheral neuropathy AE	http://purl.obolibrary.org/obo/ODNAE_0000023	ciprofloxacin hydrochloride (Ciloxan, Cipro, Cetraxal)-associated peripheral neuropathy AE	http://purl.obolibrary.org/obo/DRON_00021347	Ciprofloxacin Oral Tablet	nodeID://b339945066
+http://purl.obolibrary.org/obo/OAE_0001215	neurotoxicity AE	http://purl.obolibrary.org/obo/ODNAE_0000024	cefepime (Maxipime)-associated neurotoxicity AE	http://purl.obolibrary.org/obo/DRON_00024830	cefepime Injectable Solution	nodeID://b339945067
+http://purl.obolibrary.org/obo/OAE_0000418	neuropathy AE	http://purl.obolibrary.org/obo/ODNAE_0000025	penicillin G benzathine (Bicillin L-A)-associated neuropathy AE	http://purl.obolibrary.org/obo/DRON_00034441	penicillin G benzathine 115 MG/ML Oral Solution	nodeID://b339945068
+
+
+--
+# SPARQL 6.2: This is to find AE and related drugs for the AE.
+#Note: an AE (e.g., ciprofloxacin hydrochloride (Ciloxan, Cipro, Cetraxal)-associated peripheral neuropathy AE or ODNAE_0000023) may have two superclasses, e.g., peripheral neuropathy AE, and drug-associated peripheral neuropathy adverse event. And this AE ‘has participant’ some ‘Ciprofloxacin Oral Tablet’.
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+
+SELECT  ?p ?labelp ?d ?label1 ?c ?label2 ?s1
+FROM <http://purl.obolibrary.org/obo/merged/ODNAE>
+WHERE {
+    ?d rdfs:subClassOf ?s1 .
+?d rdfs:subClassOf ?p .
+
+    ?p a  owl:Class .
+    ?p rdfs:label ?labelp .
+
+    ?d rdfs:label ?label1 .
+    ?s1 owl:onProperty obo:BFO_0000057; owl:someValuesFrom ?c .
+    ?c rdfs:label ?label2 .
+
+FILTER REGEX(str(?p), "OAE") .
+} 
+
+#part of results:
+p	labelp	d	label1	c	label2	s1
+http://purl.obolibrary.org/obo/OAE_0000337	peripheral neuropathy AE	http://purl.obolibrary.org/obo/ODNAE_0000023	ciprofloxacin hydrochloride (Ciloxan, Cipro, Cetraxal)-associated peripheral neuropathy AE	http://purl.obolibrary.org/obo/DRON_00021347	Ciprofloxacin Oral Tablet	nodeID://b339945066
+http://purl.obolibrary.org/obo/OAE_0001215	neurotoxicity AE	http://purl.obolibrary.org/obo/ODNAE_0000024	cefepime (Maxipime)-associated neurotoxicity AE	http://purl.obolibrary.org/obo/DRON_00024830	cefepime Injectable Solution	nodeID://b339945067
+http://purl.obolibrary.org/obo/OAE_0000418	neuropathy AE	http://purl.obolibrary.org/obo/ODNAE_0000025	penicillin G benzathine (Bicillin L-A)-associated neuropathy AE	http://purl.obolibrary.org/obo/DRON_00034441	penicillin G benzathine 115 MG/ML Oral Solution	nodeID://b339945068
+
+
+# SPARQL 6.3: This is to identify chebi chemical terms for a specific AE.
+#Note: Basicaly, this is to merge the above two scripts to map Chebi terms directly AE terms.
+#Note:  This is the script used to generate data for heatmap.
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct <http://purl.obolibrary.org/obo/CHEBI_33582> ?label_targetchebi ?chebi_for_drug ?drug ?labeldrug ?p ?labelp
+FROM <http://purl.obolibrary.org/obo/merged/ODNAE>
+WHERE {
+    <http://purl.obolibrary.org/obo/CHEBI_33582> rdfs:label ?label_targetchebi .
+    ?chebi_for_drug rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33582> option (transitive) .
+    ?d owl:onProperty <http://www.obofoundry.org/ro/ro.owl#has_proper_part>;    owl:someValuesFrom ?chebi_for_drug .
+   
+    ?drug rdfs:subClassOf ?d .
+    ?drug rdfs:label ?labeldrug .
+
+    ?dae rdfs:subClassOf ?s1 .
+?dae rdfs:subClassOf ?p .
+?p a owl:Class .
+?p rdfs:label ?labelp .
+    
+    ?s1 owl:onProperty obo:BFO_0000057; owl:someValuesFrom ?drug .
+
+FILTER REGEX(str(?p), "OAE") .
+
+}
+
+#part of results:
+callret-0	label_targetchebi	chebi_for_drug	drug	labeldrug	p	labelp
+http://purl.obolibrary.org/obo/CHEBI_33582	carbon group molecular entity	http://purl.obolibrary.org/obo/CHEBI_63581	http://purl.obolibrary.org/obo/DRON_00023447	Stavudine Oral Capsule	http://purl.obolibrary.org/obo/OAE_0000337	peripheral neuropathy AE
+http://purl.obolibrary.org/obo/CHEBI_33582	carbon group molecular entity	http://purl.obolibrary.org/obo/CHEBI_127780	http://purl.obolibrary.org/obo/DRON_00025587	Foscarnet Injectable Solution	http://purl.obolibrary.org/obo/OAE_0000418	neuropathy AE
+http://purl.obolibrary.org/obo/CHEBI_33582	carbon group molecular entity	http://purl.obolibrary.org/obo/CHEBI_44915	http://purl.obolibrary.org/obo/DRON_00026059	Propofol Injectable Suspension	http://purl.obolibrary.org/obo/OAE_0000418	neuropathy AE
+
+Note: some drugs are not associated with AEs.
+For example, DRON_00022253  -- Levodopa Oral Tablet 
+are not associated with any AEs. 
+Note: some drugs may have two AEs, for example, DRON_00022291 - lomefloxacin Oral Tablet
