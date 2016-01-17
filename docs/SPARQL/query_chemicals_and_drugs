@@ -1,0 +1,102 @@
+# SPARQL 5.1. identify the drugs having proper part of chemical elements
+# Note: http://www.obofoundry.org/ro/ro.owl#has_proper_part
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+
+SELECT ?d ?label1 ?c ?label2
+FROM <http://purl.obolibrary.org/obo/merged/ODNAE>
+WHERE {
+    ?d rdfs:subClassOf ?s1 .
+    ?d rdfs:label ?label1 .
+    ?s1 owl:onProperty <http://www.obofoundry.org/ro/ro.owl#has_proper_part>; owl:someValuesFrom ?c .
+    ?c rdfs:label ?label2 .
+}
+
+#Results:
+#count (distinct ?d)   213
+
+Example:
+d	label1	c	label2
+http://purl.obolibrary.org/obo/DRON_00020336	Triamcinolone Oral Tablet	http://purl.obolibrary.org/obo/CHEBI_9667	Triamcinolone
+http://purl.obolibrary.org/obo/DRON_00020337	Dexamethasone Ophthalmic Ointment	http://purl.obolibrary.org/obo/CHEBI_41879	dexamethasone
+
+--
+
+# SPARQL 5.2. identify all ancestor CHEBI terms of CHEBI_9667 (Triamcinolone)
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?label_9667 ?s ?label
+FROM <http://purl.obolibrary.org/obo/merged/ODNAE>
+WHERE {
+<http://purl.obolibrary.org/obo/CHEBI_9667> rdfs:label ?label_9667 . 
+<http://purl.obolibrary.org/obo/CHEBI_9667> rdfs:subClassOf ?s option (transitive) .
+    ?s rdfs:label ?label .
+FILTER REGEX(str(?s), "CHEBI") .
+}
+
+# result
+13
+
+label_9667	s	label
+Triamcinolone	http://purl.obolibrary.org/obo/CHEBI_50830	fluorinated steroid
+Triamcinolone	http://purl.obolibrary.org/obo/CHEBI_35341	steroid
+…
+
+
+# SPARQL 5.3: get drugs for all child levels of a parent CHEBI term:
+# CHEBI_22507: glycoside antibiotic
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?s ?d ?d2 ?label2
+FROM <http://purl.obolibrary.org/obo/merged/ODNAE>
+WHERE {
+    ?s rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_22507> option (transitive) .
+?d owl:onProperty <http://www.obofoundry.org/ro/ro.owl#has_proper_part>; owl:someValuesFrom ?s .
+
+    ?d2 rdfs:subClassOf ?d .
+    ?d2 rdfs:label ?label2 .
+}
+
+# results: 2
+
+s	d	d2	label2
+http://purl.obolibrary.org/obo/CHEBI_17833	nodeID://b339944739	http://purl.obolibrary.org/obo/DRON_00022009	Gentamicin Sulfate (USP) Injectable Solution
+http://purl.obolibrary.org/obo/CHEBI_17076	nodeID://b339944979	http://purl.obolibrary.org/obo/DRON_00030017	Streptomycin Oral Capsule
+
+--
+
+# SPARQL 5.4. Goal: get drugs for all levels of chebi terms --> #2 cleanup 
+# CHEBI_33582: carbon group molecular entities
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct <http://purl.obolibrary.org/obo/CHEBI_33582> ?label_targetchebi ?chebi_for_drug ?drug ?labeldrug
+FROM <http://purl.obolibrary.org/obo/merged/ODNAE>
+WHERE {
+    <http://purl.obolibrary.org/obo/CHEBI_33582> rdfs:label ?label_targetchebi .
+    ?chebi_for_drug rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33582> option (transitive) .
+?d owl:onProperty <http://www.obofoundry.org/ro/ro.owl#has_proper_part>; owl:someValuesFrom ?chebi_for_drug .
+   
+    ?drug rdfs:subClassOf ?d .
+    ?drug rdfs:label ?labeldrug .
+}
+
+#part of results:
+callret-0	label_targetchebi	chebi_for_drug	drug	labeldrug
+http://purl.obolibrary.org/obo/CHEBI_33582	carbon group molecular entity	http://purl.obolibrary.org/obo/CHEBI_63581	http://purl.obolibrary.org/obo/DRON_00023447	Stavudine Oral Capsule
+http://purl.obolibrary.org/obo/CHEBI_33582	carbon group molecular entity	http://purl.obolibrary.org/obo/CHEBI_127780	http://purl.obolibrary.org/obo/DRON_00025587	Foscarnet Injectable Solution
+http://purl.obolibrary.org/obo/CHEBI_33582	carbon group molecular entity	http://purl.obolibrary.org/obo/CHEBI_44915	http://purl.obolibrary.org/obo/DRON_00026059	Propofol Injectable Suspension
+
+Note: removed this line:  ?chebi_for_drug rdfs:label ?label_chebi .
+Why: because the label_chebi can have duplicate names for the same chebi.
+
