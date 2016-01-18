@@ -274,7 +274,7 @@ WHERE {
   ?bnode owl:onProperty obo:RO_0000087; owl:someValuesFrom ndfrt:N0000000256 .
 }
 
-# Result:
+# Result: (at 7:43 EST 1/17/2016 by Oliver He)
 drug  drug_label
 http://purl.obolibrary.org/obo/DRON_00013763  eletriptan
 http://purl.obolibrary.org/obo/DRON_00018348  almotriptan
