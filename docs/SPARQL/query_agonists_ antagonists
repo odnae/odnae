@@ -258,3 +258,25 @@ WHERE
 }
 
 # results in 1 drug : (run on http://sparql.hegroup.org/sparql/, at 12:10 CST 4/30/2015 by Asiyah Yu Lin)
+
+#8. Goal: Find drugs that has role (RO_0000087) of Serotonin Agonists [MoA] (N0000000256) from ODNAE
+# Note: This is the SPARQL script for Figure 6. -- Oliver
+
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/> 
+prefix ndfrt: <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#>
+
+SELECT distinct ?drug ?drug_label
+FROM <http://purl.obolibrary.org/obo/merged/ODNAE>
+WHERE { 
+  ?drug rdfs:subClassOf ?bnode .
+  ?drug rdfs:label ?drug_label .
+  ?bnode owl:onProperty obo:RO_0000087; owl:someValuesFrom ndfrt:N0000000256 .
+}
+
+# Result:
+drug  drug_label
+http://purl.obolibrary.org/obo/DRON_00013763  eletriptan
+http://purl.obolibrary.org/obo/DRON_00018348  almotriptan
+http://purl.obolibrary.org/obo/DRON_00023808  zolmitriptan Oral Tablet
+
