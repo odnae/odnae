@@ -7,8 +7,8 @@
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
     <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY pato "http://purl.obolibrary.org/obo/pato#" >
     <!ENTITY dron "http://purl.obolibrary.org/obo/dron#" >
+    <!ENTITY pato "http://purl.obolibrary.org/obo/pato#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY uberon "http://purl.obolibrary.org/obo/uberon#" >
     <!ENTITY ubprop "http://purl.obolibrary.org/obo/ubprop#" >
@@ -41,16 +41,16 @@
         <dc:contributor>Junguk Hur</dc:contributor>
         <dc:creator>Abra Guo</dc:creator>
         <dc:contributor>Jane Bane</dc:contributor>
-        <dc:contributor>Yu Lin</dc:contributor>
-        <dc:date>2015-04-26</dc:date>
+        <dc:date>2016-05-12</dc:date>
         <dc:subject xml:lang="en">An ontology for the annotation of the adverse event domain.</dc:subject>
+        <dc:contributor>Yu Lin</dc:contributor>
         <dc:contributor>Guoqian Jiang</dc:contributor>
         <dc:description xml:lang="en">ODNAE is an extension of OAE with a focus on drug-associated neuropathy adverse events.</dc:description>
         <dc:title xml:lang="en">ODNAE: Ontology of Drug Neuropathy Adverse Events</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <obo:IAO_0000116 xml:lang="en">Product version</obo:IAO_0000116>
         <dc:creator xml:lang="en">Rebecca Racz</dc:creator>
-        <owl:versionInfo xml:lang="en">Vision Release; 1.0.09</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release; 1.0.10</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
     </owl:Ontology>
     
@@ -69,81 +69,49 @@
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Display_Name -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;Display_Name">
-        <rdfs:label>Display_Name</rdfs:label>
-        <NDF-RT:code>C264</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;Display_Name"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_DUI -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_DUI">
-        <rdfs:label>MeSH_DUI</rdfs:label>
-        <NDF-RT:code>C134</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_DUI"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Name -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_Name">
-        <rdfs:label>MeSH_Name</rdfs:label>
-        <NDF-RT:code>C287</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_Name"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#NUI -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;NUI">
-        <rdfs:label>NUI</rdfs:label>
-        <NDF-RT:code>C10490107818172</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;NUI"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_CUI -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;RxNorm_CUI">
-        <rdfs:label>RxNorm_CUI</rdfs:label>
-        <NDF-RT:code>C818</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;RxNorm_CUI"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Synonym -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;Synonym">
-        <rdfs:label>Synonym</rdfs:label>
-        <NDF-RT:code>C136</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;Synonym"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#UMLS_CUI -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;UMLS_CUI">
-        <rdfs:label>UMLS_CUI</rdfs:label>
-        <NDF-RT:code>C140</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;UMLS_CUI"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#code -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;code">
-        <protege:readOnly rdf:datatype="&xsd;integer">1</protege:readOnly>
-        <NDF-RT:code>AHC0</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;code"/>
     
 
 
@@ -155,26 +123,7 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000053 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;BFO_0000053">
-        <rdfs:label rdf:datatype="&xsd;string">is_bearer_of</rdfs:label>
-        <rdfs:label xml:lang="en">bearer of at some time</rdfs:label>
-        <rdfs:label xml:lang="en">is bearer of</rdfs:label>
-        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
-        <obo:IAO_0000116>Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance level, relation. The BFO reading of the binary relation &apos;bearer of at some time@en&apos; is: exists t,  exists_at(x,t) &amp; exists_at(y,t) &amp; &apos;bearer of@en&apos;(x,y,t)</obo:IAO_0000116>
-        <obo:IAO_0000116>BFO2 Reference: independent continuant that is not a spatial region</obo:IAO_0000116>
-        <obo:IAO_0000115 xml:lang="en">b bearer_of c at t =Def. c s-depends_on b at t &amp; b is an independent continuant that is not a spatial region. (axiom label in BFO2 Reference: [053-004])</obo:IAO_0000115>
-        <obo:BFO_0000180>bearerOfAt</obo:BFO_0000180>
-        <obo:IAO_0000602>(iff (bearerOfAt a b t) (and (specificallyDependsOnAt b a t) (IndependentContinuant a) (not (SpatialRegion a)) (existsAt b t))) // axiom label in BFO2 CLIF: [053-004] </obo:IAO_0000602>
-        <obo:IAO_0000118 xml:lang="en">bearer of</obo:IAO_0000118>
-        <obo:BFO_0000179>bearer-of_st</obo:BFO_0000179>
-        <obo:IAO_0000116>BFO2 Reference: specifically dependent continuant</obo:IAO_0000116>
-        <obo:IAO_0000118 xml:lang="en">bearer_of</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;bfo.owl"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;dron.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;oae.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&obo;BFO_0000053"/>
     
 
 
@@ -1081,25 +1030,7 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000053 -->
 
     <owl:ObjectProperty rdf:about="&obo;BFO_0000053">
-        <rdfs:label rdf:datatype="&xsd;string">is_bearer_of</rdfs:label>
-        <rdfs:label xml:lang="en">bearer of at some time</rdfs:label>
-        <rdfs:label xml:lang="en">is bearer of</rdfs:label>
-        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
-        <obo:IAO_0000116>Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance level, relation. The BFO reading of the binary relation &apos;bearer of at some time@en&apos; is: exists t,  exists_at(x,t) &amp; exists_at(y,t) &amp; &apos;bearer of@en&apos;(x,y,t)</obo:IAO_0000116>
-        <obo:IAO_0000116>BFO2 Reference: independent continuant that is not a spatial region</obo:IAO_0000116>
-        <obo:BFO_0000180>bearerOfAt</obo:BFO_0000180>
-        <obo:IAO_0000602>(iff (bearerOfAt a b t) (and (specificallyDependsOnAt b a t) (IndependentContinuant a) (not (SpatialRegion a)) (existsAt b t))) // axiom label in BFO2 CLIF: [053-004] </obo:IAO_0000602>
-        <obo:BFO_0000179>bearer-of_st</obo:BFO_0000179>
-        <obo:IAO_0000116>BFO2 Reference: specifically dependent continuant</obo:IAO_0000116>
-        <obo:IAO_0000115 xml:lang="en">b bearer_of c at t =Def. c s-depends_on b at t &amp; b is an independent continuant that is not a spatial region. (axiom label in BFO2 Reference: [053-004])</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">bearer of</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">bearer_of</obo:IAO_0000118>
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000125"/>
-        <obo:IAO_0000412 rdf:resource="&obo;bfo.owl"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;dron.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;oae.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
@@ -1947,7 +1878,35 @@
         <obo:IAO_0000412 rdf:resource="&obo;oae.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0003000"/>
+            <rdf:Description rdf:about="&obo;RO_0002131"/>
+            <rdf:Description rdf:about="&obo;RO_0002162"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0001025"/>
+            <rdf:Description rdf:about="&obo;RO_0002162"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002371"/>
+            <rdf:Description rdf:about="&obo;RO_0002162"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002178"/>
+            <rdf:Description rdf:about="&obo;RO_0002162"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002492"/>
+            <rdf:Description rdf:about="&obo;RO_0002162"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;RO_0002162"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002256"/>
+            <rdf:Description rdf:about="&obo;RO_0002162"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002176"/>
             <rdf:Description rdf:about="&obo;RO_0002162"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
@@ -1959,39 +1918,7 @@
             <rdf:Description rdf:about="&obo;RO_0002162"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002256"/>
-            <rdf:Description rdf:about="&obo;RO_0002162"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002371"/>
-            <rdf:Description rdf:about="&obo;RO_0002162"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002492"/>
-            <rdf:Description rdf:about="&obo;RO_0002162"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002176"/>
-            <rdf:Description rdf:about="&obo;RO_0002162"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002131"/>
-            <rdf:Description rdf:about="&obo;RO_0002162"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-            <rdf:Description rdf:about="&obo;RO_0002162"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002150"/>
-            <rdf:Description rdf:about="&obo;RO_0002162"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002178"/>
-            <rdf:Description rdf:about="&obo;RO_0002162"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002005"/>
+            <rdf:Description rdf:about="&obo;RO_0002488"/>
             <rdf:Description rdf:about="&obo;RO_0002162"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
@@ -1999,15 +1926,19 @@
             <rdf:Description rdf:about="&obo;RO_0002162"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002488"/>
-            <rdf:Description rdf:about="&obo;RO_0002162"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0001025"/>
+            <rdf:Description rdf:about="&obo;RO_0002005"/>
             <rdf:Description rdf:about="&obo;RO_0002162"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002202"/>
+            <rdf:Description rdf:about="&obo;RO_0002162"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0003000"/>
+            <rdf:Description rdf:about="&obo;RO_0002162"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002150"/>
             <rdf:Description rdf:about="&obo;RO_0002162"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
@@ -2117,12 +2048,12 @@
         <obo:IAO_0000412 rdf:resource="&obo;oae.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
             <rdf:Description rdf:about="&obo;RO_0002202"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002202"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;RO_0002202"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -2643,23 +2574,23 @@
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002496"/>
-            <rdf:Description rdf:about="&obo;RO_0002082"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;RO_0002496"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002258"/>
             <rdf:Description rdf:about="&obo;RO_0002496"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-            <rdf:Description rdf:about="&obo;RO_0002496"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002496"/>
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002496"/>
             <rdf:Description rdf:about="&obo;BFO_0000062"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002496"/>
+            <rdf:Description rdf:about="&obo;RO_0002082"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -2678,20 +2609,20 @@
         <obo:IAO_0000412 rdf:resource="&obo;oae.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;uberon/core#developmentally_succeeded_by"/>
-            <rdf:Description rdf:about="&obo;RO_0002497"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002497"/>
-            <rdf:Description rdf:about="&obo;RO_0002082"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002497"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002497"/>
             <rdf:Description rdf:about="&obo;BFO_0000063"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;uberon/core#developmentally_succeeded_by"/>
+            <rdf:Description rdf:about="&obo;RO_0002497"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002497"/>
+            <rdf:Description rdf:about="&obo;RO_0002082"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
@@ -2847,81 +2778,49 @@
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Display_Name -->
 
-    <owl:DatatypeProperty rdf:about="&NDF-RT;Display_Name">
-        <rdfs:label>Display_Name</rdfs:label>
-        <NDF-RT:code>C264</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&NDF-RT;Display_Name"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_DUI -->
 
-    <owl:DatatypeProperty rdf:about="&NDF-RT;MeSH_DUI">
-        <rdfs:label>MeSH_DUI</rdfs:label>
-        <NDF-RT:code>C134</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&NDF-RT;MeSH_DUI"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Name -->
 
-    <owl:DatatypeProperty rdf:about="&NDF-RT;MeSH_Name">
-        <rdfs:label>MeSH_Name</rdfs:label>
-        <NDF-RT:code>C287</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&NDF-RT;MeSH_Name"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#NUI -->
 
-    <owl:DatatypeProperty rdf:about="&NDF-RT;NUI">
-        <rdfs:label>NUI</rdfs:label>
-        <NDF-RT:code>C10490107818172</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&NDF-RT;NUI"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_CUI -->
 
-    <owl:DatatypeProperty rdf:about="&NDF-RT;RxNorm_CUI">
-        <rdfs:label>RxNorm_CUI</rdfs:label>
-        <NDF-RT:code>C818</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&NDF-RT;RxNorm_CUI"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Synonym -->
 
-    <owl:DatatypeProperty rdf:about="&NDF-RT;Synonym">
-        <rdfs:label>Synonym</rdfs:label>
-        <NDF-RT:code>C136</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&NDF-RT;Synonym"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#UMLS_CUI -->
 
-    <owl:DatatypeProperty rdf:about="&NDF-RT;UMLS_CUI">
-        <rdfs:label>UMLS_CUI</rdfs:label>
-        <NDF-RT:code>C140</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&NDF-RT;UMLS_CUI"/>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#code -->
 
-    <owl:DatatypeProperty rdf:about="&NDF-RT;code">
-        <protege:readOnly rdf:datatype="&xsd;integer">1</protege:readOnly>
-        <NDF-RT:code>AHC0</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&NDF-RT;code"/>
     
 
 
@@ -3092,8 +2991,8 @@
         <NDF-RT:UMLS_CUI>C1373000</NDF-RT:UMLS_CUI>
         <NDF-RT:NUI>N0000000084</NDF-RT:NUI>
         <NDF-RT:Display_Name>Sex Hormone Receptor Antagonists</NDF-RT:Display_Name>
-        <NDF-RT:code>C346</NDF-RT:code>
         <NDF-RT:RxNorm_CUI>985639</NDF-RT:RxNorm_CUI>
+        <NDF-RT:code>C346</NDF-RT:code>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -3450,8 +3349,8 @@
         <NDF-RT:MeSH_DUI>D012702</NDF-RT:MeSH_DUI>
         <NDF-RT:NUI>N0000000130</NDF-RT:NUI>
         <NDF-RT:UMLS_CUI>C2757052</NDF-RT:UMLS_CUI>
-        <NDF-RT:RxNorm_CUI>993156</NDF-RT:RxNorm_CUI>
         <NDF-RT:code>C438</NDF-RT:code>
+        <NDF-RT:RxNorm_CUI>993156</NDF-RT:RxNorm_CUI>
         <NDF-RT:MeSH_Name>Serotonin Antagonists</NDF-RT:MeSH_Name>
         <NDF-RT:Display_Name>Serotonin Antagonists</NDF-RT:Display_Name>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
@@ -6059,6 +5958,12 @@
         <rdfs:label rdf:datatype="&xsd;string">sumatriptan</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_27162"/>
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_35358"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">(3-[2-(dimethylamino)ethyl]-1H-indol-5-yl)-N-methylmethanesulfonamide</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">1-[3-(2-dimethylaminoethyl)-1H-indol-5-yl]-N-methyl-methanesulfonamide</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">1-{3-[2-(dimethylamino)ethyl]-1H-indol-5-yl}-N-methylmethanesulfonamide</oboInOwl:hasExactSynonym>
@@ -18552,12 +18457,6 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_9667"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000159"/>
             </owl:Restriction>
@@ -18566,6 +18465,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000134"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_9667"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">96819</dron:DRON_00010000>
@@ -18631,12 +18536,6 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000010256"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
                 <owl:someValuesFrom rdf:resource="&obo;CHEBI_23359"/>
             </owl:Restriction>
@@ -18645,6 +18544,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
                 <owl:someValuesFrom rdf:resource="&obo;DRON_00014428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000010256"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">239053</dron:DRON_00010000>
@@ -18679,14 +18584,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000236"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00013638"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00013638"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000236"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">370496</dron:DRON_00010000>
@@ -18723,14 +18628,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000206"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_40279"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_40279"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000206"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">370547</dron:DRON_00010000>
@@ -18755,13 +18660,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000203"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000193"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000193"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000203"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">370559</dron:DRON_00010000>
@@ -18780,13 +18685,19 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000180"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_2663"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000180"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -18797,14 +18708,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000211"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000069"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_2663"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">370568</dron:DRON_00010000>
@@ -18824,14 +18729,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_2666"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_2666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -18855,14 +18760,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_2668"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000020065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000020065"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_2668"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">370573</dron:DRON_00010000>
@@ -18947,14 +18852,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_44423"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000212"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000212"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_44423"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">370657</dron:DRON_00010000>
@@ -19011,14 +18916,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_47499"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_47499"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">370680</dron:DRON_00010000>
@@ -19105,14 +19010,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_6076"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000020025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000020025"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_6076"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">370725</dron:DRON_00010000>
@@ -19130,12 +19035,6 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000236"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
                 <owl:someValuesFrom rdf:resource="&obo;DRON_00010174"/>
             </owl:Restriction>
@@ -19144,6 +19043,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000233"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000236"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">370819</dron:DRON_00010000>
@@ -19180,14 +19085,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_3082"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000009923"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000009923"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_3082"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">371065</dron:DRON_00010000>
@@ -19281,14 +19186,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000098"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00010402"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00010402"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000098"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">371250</dron:DRON_00010000>
@@ -19331,14 +19236,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_100241"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000176"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000176"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_100241"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">371523</dron:DRON_00010000>
@@ -19382,13 +19287,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000102"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -19492,12 +19397,6 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
                 <owl:someValuesFrom rdf:resource="&obo;CHEBI_47781"/>
             </owl:Restriction>
@@ -19506,6 +19405,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">371709</dron:DRON_00010000>
@@ -19692,14 +19597,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_4911"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000233"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000233"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_4911"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">372132</dron:DRON_00010000>
@@ -19717,14 +19622,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_119915"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000174"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000174"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_119915"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">372160</dron:DRON_00010000>
@@ -19742,14 +19647,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000020025"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_46081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_46081"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000020025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">372208</dron:DRON_00010000>
@@ -19926,14 +19831,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000230"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_5613"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_5613"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000230"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">372376</dron:DRON_00010000>
@@ -20035,14 +19940,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000176"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63598"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63598"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000176"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">372588</dron:DRON_00010000>
@@ -20112,14 +20017,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000070"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_6541"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_6541"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000070"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">372651</dron:DRON_00010000>
@@ -20139,14 +20044,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000121"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_40303"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_40303"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000121"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">372652</dron:DRON_00010000>
@@ -20267,18 +20172,6 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000150"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000155"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
                 <owl:someValuesFrom rdf:resource="&obo;CHEBI_50673"/>
             </owl:Restriction>
@@ -20286,7 +20179,19 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000132"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000155"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">372827</dron:DRON_00010000>
@@ -20304,14 +20209,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000098"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_44185"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_44185"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000098"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -20366,8 +20271,8 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_6888"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000159"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -20378,8 +20283,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000159"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_6888"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">372866</dron:DRON_00010000>
@@ -20397,14 +20302,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000066"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00015990"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00015990"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">372888</dron:DRON_00010000>
@@ -20536,7 +20441,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000102"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -20548,7 +20453,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373126</dron:DRON_00010000>
@@ -20566,14 +20471,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_7731"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000176"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000176"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_7731"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373141</dron:DRON_00010000>
@@ -20708,14 +20613,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63617"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000117"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000117"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63617"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373291</dron:DRON_00010000>
@@ -20750,14 +20655,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000180"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_8107"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_8107"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000180"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373432</dron:DRON_00010000>
@@ -20852,25 +20757,25 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000150"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_8502"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000155"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000132"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_8502"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373658</dron:DRON_00010000>
@@ -20888,6 +20793,12 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_8597"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000102"/>
             </owl:Restriction>
@@ -20896,12 +20807,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_8597"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373665</dron:DRON_00010000>
@@ -20919,14 +20824,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000181"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_8774"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_8774"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000181"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373749</dron:DRON_00010000>
@@ -20986,14 +20891,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000117"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_8888"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_8888"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000117"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373800</dron:DRON_00010000>
@@ -21061,14 +20966,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_9150"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000121"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000121"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_9150"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373888</dron:DRON_00010000>
@@ -21086,8 +20991,8 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63622"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000009924"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21098,8 +21003,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000009924"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63622"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373937</dron:DRON_00010000>
@@ -21119,14 +21024,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63581"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000103"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63581"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373959</dron:DRON_00010000>
@@ -21144,14 +21049,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000087"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00011589"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00011589"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000087"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373964</dron:DRON_00010000>
@@ -21193,14 +21098,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000160"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_9334"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_9334"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000160"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">373991</dron:DRON_00010000>
@@ -21235,14 +21140,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000168"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_41774"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_41774"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000168"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">374020</dron:DRON_00010000>
@@ -21298,14 +21203,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63629"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000009918"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000009918"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63629"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">374146</dron:DRON_00010000>
@@ -21340,14 +21245,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00011676"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000133"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00011676"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">374153</dron:DRON_00010000>
@@ -21365,14 +21270,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000160"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00011680"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00011680"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000160"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">374157</dron:DRON_00010000>
@@ -21390,14 +21295,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000180"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63631"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63631"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000180"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">374166</dron:DRON_00010000>
@@ -21421,14 +21326,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_9738"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000102"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_9738"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">374239</dron:DRON_00010000>
@@ -21452,14 +21357,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_9943"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_9943"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">374285</dron:DRON_00010000>
@@ -21496,14 +21401,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_10100"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000083"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000083"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_10100"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">374330</dron:DRON_00010000>
@@ -21630,14 +21535,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000138"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_10102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_10102"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000138"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">374609</dron:DRON_00010000>
@@ -21729,18 +21634,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000130"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000099"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000230"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -21748,6 +21641,18 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
                 <owl:someValuesFrom rdf:resource="&obo;CHEBI_10119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000099"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">374649</dron:DRON_00010000>
@@ -21807,14 +21712,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00016952"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000247"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000247"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00016952"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">374678</dron:DRON_00010000>
@@ -21832,14 +21737,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000133"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_4953"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_4953"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">375061</dron:DRON_00010000>
@@ -21983,14 +21888,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_4356"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000144"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000144"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_4356"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">376374</dron:DRON_00010000>
@@ -22033,14 +21938,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_27899"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000233"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000233"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_27899"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">376433</dron:DRON_00010000>
@@ -22083,14 +21988,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000233"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_175901"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_175901"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000233"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">376887</dron:DRON_00010000>
@@ -22133,14 +22038,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000247"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00012980"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00012980"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000247"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">377091</dron:DRON_00010000>
@@ -22158,6 +22063,12 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_45863"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000135"/>
             </owl:Restriction>
@@ -22166,12 +22077,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000010260"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_45863"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">377111</dron:DRON_00010000>
@@ -22239,14 +22144,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000176"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00012990"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00012990"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000176"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">377130</dron:DRON_00010000>
@@ -22289,14 +22194,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000065"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_31941"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_31941"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">377209</dron:DRON_00010000>
@@ -22339,14 +22244,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00013042"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000009949"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000009949"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00013042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">377259</dron:DRON_00010000>
@@ -22422,6 +22327,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000114"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -22429,12 +22340,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
                 <owl:someValuesFrom rdf:resource="&obo;CHEBI_3219"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">378233</dron:DRON_00010000>
@@ -22494,14 +22399,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000233"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_31355"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_31355"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000233"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">378363</dron:DRON_00010000>
@@ -22563,14 +22468,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00018583"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000008288"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000008288"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00018583"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">378686</dron:DRON_00010000>
@@ -22705,14 +22610,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00017214"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000019993"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000019993"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00017214"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">379232</dron:DRON_00010000>
@@ -22730,14 +22635,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000233"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00017540"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00017540"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000233"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">393413</dron:DRON_00010000>
@@ -22807,14 +22712,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00018677"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000020019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000020019"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00018677"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">402347</dron:DRON_00010000>
@@ -22888,14 +22793,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000020009"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00018693"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00018693"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000020009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">406050</dron:DRON_00010000>
@@ -22913,12 +22818,6 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000098"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
                 <owl:someValuesFrom rdf:resource="&obo;DRON_00014262"/>
             </owl:Restriction>
@@ -22927,6 +22826,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000098"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">406178</dron:DRON_00010000>
@@ -23139,14 +23044,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_6375"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000147"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000147"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_6375"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">596836</dron:DRON_00010000>
@@ -23238,14 +23143,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;DRON_00020282"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000009948"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000009948"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;DRON_00020282"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">632025</dron:DRON_00010000>
@@ -23396,14 +23301,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000176"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63632"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_63632"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000176"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">747192</dron:DRON_00010000>
@@ -23474,14 +23379,14 @@
         <rdfs:subClassOf rdf:resource="&obo;DRON_00000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_45409"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000246"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&NDF-RT;N0000000246"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_45409"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dron:DRON_00010000 rdf:datatype="&xsd;string">900574</dron:DRON_00010000>
@@ -27343,8 +27248,8 @@
     <owl:Class rdf:about="&obo;OAE_0001215">
         <rdfs:label>neurotoxicity AE</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OAE_0000570"/>
-        <obo:IAO_0000115>a nervous system AE that alters the normal activity of the nervous system due to exposure to neurotoxins, causes damage to nervous tissue</obo:IAO_0000115>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Neurotoxicity</obo:IAO_0000119>
+        <obo:IAO_0000115>a nervous system AE that alters the normal activity of the nervous system due to exposure to neurotoxins, causes damage to nervous tissue</obo:IAO_0000115>
         <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
         <rdfs:seeAlso>MedDRA: 10029350</rdfs:seeAlso>
         <obo:IAO_0000412 rdf:resource="&obo;oae.owl"/>
@@ -29957,8 +29862,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;DRON_00022383"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>RR, AG, YH</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.accessdata.fda.gov/drugsatfda_docs/label/2009/019591s026s028lbl.pdf</obo:IAO_0000119>
+        <obo:IAO_0000117>RR, AG, YH</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -32231,14 +32136,14 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000465"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002497"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000071"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002496"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002496"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000106"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002497"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AAO:0010825</oboInOwl:hasDbXref>
@@ -32280,8 +32185,8 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0010000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000467"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002002"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0006984"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -32292,14 +32197,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0008150"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000467"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002002"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0006984"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0008150"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure that performs a specific function or group of functions [WP].</obo:IAO_0000115>
@@ -32340,8 +32245,8 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000092"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000062"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000111"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -32352,8 +32257,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000062"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000111"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000092"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BTO:0001043</oboInOwl:hasDbXref>
@@ -32422,6 +32327,12 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000063"/>
                 <owl:someValuesFrom rdf:resource="&obo;UBERON_0000092"/>
             </owl:Restriction>
@@ -32430,12 +32341,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002082"/>
                 <owl:someValuesFrom rdf:resource="&obo;GO_0009790"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000104"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A life cycle stage that starts with fertilization and ends with the fully formed embryo.</obo:IAO_0000115>
@@ -32468,14 +32373,14 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002229"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000104"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002082"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0016265"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002082"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0016265"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002229"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000104"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -32660,14 +32565,14 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000067"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000106"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002082"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0040016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002082"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0040016"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -32705,14 +32610,14 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000067"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000068"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000062"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000107"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000062"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000107"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An early stage of embryonic development in animals. It is produced by cleavage of a fertilized ovum and consists of a spherical layer of around 128 cells surrounding a central fluid-filled cavity called the blastocoel. The blastula follows the morula and precedes the gastrula in the developmental sequence.</obo:IAO_0000115>
@@ -32748,14 +32653,14 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000067"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000062"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000108"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000068"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002160"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6072"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -32766,8 +32671,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002160"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6072"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000062"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage during embryonic development of most animals. The details of gastrulation vary from species to species, but usually result in the formation of the three primary germ layers, ectoderm, mesoderm and endoderm.</obo:IAO_0000115>
@@ -32804,26 +32709,26 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000067"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002082"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0001841"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002160"/>
                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6072"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000068"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000062"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000062"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000109"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002082"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0001841"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BILS:0000110</oboInOwl:hasDbXref>
@@ -32847,14 +32752,8 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000067"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000068"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002160"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6072"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002082"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0048513"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -32865,8 +32764,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002082"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0048513"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002160"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.</obo:IAO_0000115>
@@ -32904,14 +32809,14 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000922"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0007010"/>
+                <owl:onProperty rdf:resource="&obo;uberon/core#existence_starts_and_ends_during"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;uberon/core#existence_starts_and_ends_during"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000108"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0007010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BILA:0000059</oboInOwl:hasDbXref>
@@ -33001,14 +32906,14 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000480"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002496"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000111"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000468"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000468"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002496"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000111"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AAO:0000007</oboInOwl:hasDbXref>
@@ -33151,14 +33056,14 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0010000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0031012"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000468"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000468"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0031012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AAO:0000607</oboInOwl:hasDbXref>
@@ -33255,13 +33160,13 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002489"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002493"/>
                 <owl:someValuesFrom rdf:resource="&obo;UBERON_0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002493"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002489"/>
                 <owl:someValuesFrom rdf:resource="&obo;UBERON_0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -33326,14 +33231,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000922"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0002532"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0002532"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000922"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A layer of cells produced during the process of gastrulation during the early development of the animal embryo, which is distinct from other such layers of cells, as an early step of cell differentiation. The three types of germ layers are the endoderm, ectoderm, and mesoderm.</obo:IAO_0000115>
@@ -33441,14 +33346,8 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000020"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0009584"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;CL_0000149"/>
+                <owl:someValuesFrom rdf:resource="&obo;CL_0000210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -33460,7 +33359,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;CL_0000210"/>
+                <owl:someValuesFrom rdf:resource="&obo;CL_0000149"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0009584"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An organ that detects light.</obo:IAO_0000115>
@@ -33512,14 +33417,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002495"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0016880"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;CL_0000540"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0050877"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -33530,14 +33429,20 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0050877"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002492"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002492"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000066"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CL_0000540"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002495"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0016880"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:UBPROP_0000001 rdf:datatype="&xsd;string">A regulatory system of the body that consists of neurons and neuroglial cells. The nervous system is divided into two parts, the central nervous system (CNS) and the peripheral nervous system (PNS). (Source: BioGlossary, www.Biology-Text.com)[TAO]</obo:UBPROP_0000001>
@@ -33603,8 +33508,8 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0011216"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002160"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_33213"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -33615,8 +33520,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001016"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002160"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_33213"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:UBPROP_0000003 rdf:datatype="&xsd;string">(...) at some stage of its development, every chordate exhibits five uniquely derived characters or synapomorphies of the group: (...) (4) a single, tubular nerve cord that is located dorsal to the notochord (...) (reference 1); The neural tube is destined to differentiate into the brain and spinal cord (the central nervous system) (reference 2); Taken together, our data make a very strong case that the complex molecular mediolateral architecture of the developing trunk CNS (central nervous system), as shared between Platynereis and vertebrates, was already present in their last common ancestor, Urbilateria. The concept of bilaterian nervous system centralization implies that neuron types concentrate on one side of the trunk, as is the case in vertebrates and many invertebrates including Platynereis, where they segregate and become spatially organized (as opposed to a diffuse nerve net). Our data reveal that a large part of the spatial organization of the annelid and vertebrate CNS was already present in their last common ancestor, which implies that Urbilateria had already possessed a CNS (reference 3).[well established][VHOG]</obo:UBPROP_0000003>
@@ -33687,12 +33592,6 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000467"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002216"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0007600"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="&obo;UBERON_0004456"/>
             </owl:Restriction>
@@ -33706,6 +33605,12 @@
                         <owl:someValuesFrom rdf:resource="&obo;UBERON_0001016"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002216"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0007600"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AAO:0000555</oboInOwl:hasDbXref>
@@ -34007,6 +33912,12 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000467"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002492"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -34014,12 +33925,6 @@
                         <owl:someValuesFrom rdf:resource="&obo;UBERON_0001016"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002492"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FMA:78499</oboInOwl:hasDbXref>
@@ -34151,12 +34056,6 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0006598"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002160"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6072"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="&obo;UBERON_0000307"/>
             </owl:Restriction>
@@ -34165,6 +34064,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002387"/>
                 <owl:someValuesFrom rdf:resource="&obo;UBERON_0000924"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002160"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6072"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AAO:0000470</oboInOwl:hasDbXref>
@@ -34230,13 +34135,13 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000922"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002493"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002489"/>
                 <owl:someValuesFrom rdf:resource="&obo;UBERON_0000107"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002489"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002493"/>
                 <owl:someValuesFrom rdf:resource="&obo;UBERON_0000107"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -34268,14 +34173,14 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000061"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0005623"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="&obo;PATO_0001993"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="&obo;PATO_0001993"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An anatomical structure that has more than one cell as a part.</obo:IAO_0000115>
@@ -34353,6 +34258,12 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0005423"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000924"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002387"/>
                 <owl:someValuesFrom rdf:resource="&obo;UBERON_0001017"/>
             </owl:Restriction>
@@ -34361,12 +34272,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="&obo;UBERON_0016880"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000924"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Primordium that develops into the central nervous system</obo:IAO_0000115>
@@ -34405,14 +34310,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002387"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001016"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000922"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000922"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002387"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AAO:0000477</oboInOwl:hasDbXref>
@@ -34547,15 +34452,75 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="&obo;BFO_0000053">
+        <rdfs:label rdf:datatype="&xsd;string">is_bearer_of</rdfs:label>
+        <rdfs:label xml:lang="en">bearer of at some time</rdfs:label>
+        <rdfs:label xml:lang="en">is bearer of</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000116>Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance level, relation. The BFO reading of the binary relation &apos;bearer of at some time@en&apos; is: exists t,  exists_at(x,t) &amp; exists_at(y,t) &amp; &apos;bearer of@en&apos;(x,y,t)</obo:IAO_0000116>
+        <obo:IAO_0000116>BFO2 Reference: independent continuant that is not a spatial region</obo:IAO_0000116>
+        <obo:BFO_0000180>bearerOfAt</obo:BFO_0000180>
+        <obo:IAO_0000602>(iff (bearerOfAt a b t) (and (specificallyDependsOnAt b a t) (IndependentContinuant a) (not (SpatialRegion a)) (existsAt b t))) // axiom label in BFO2 CLIF: [053-004] </obo:IAO_0000602>
+        <obo:BFO_0000179>bearer-of_st</obo:BFO_0000179>
+        <obo:IAO_0000116>BFO2 Reference: specifically dependent continuant</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">b bearer_of c at t =Def. c s-depends_on b at t &amp; b is an independent continuant that is not a spatial region. (axiom label in BFO2 Reference: [053-004])</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">bearer of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">bearer_of</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="&obo;bfo.owl"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;oae.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://semanticscience.org/resource/SIO_000657">
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&NDF-RT;Synonym">
+        <rdfs:label>Synonym</rdfs:label>
+        <NDF-RT:code>C136</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://semanticscience.org/resource/SIO_000658">
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&NDF-RT;Display_Name">
+        <rdfs:label>Display_Name</rdfs:label>
+        <NDF-RT:code>C264</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&NDF-RT;UMLS_CUI">
+        <rdfs:label>UMLS_CUI</rdfs:label>
+        <NDF-RT:code>C140</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&NDF-RT;RxNorm_CUI">
+        <rdfs:label>RxNorm_CUI</rdfs:label>
+        <NDF-RT:code>C818</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&NDF-RT;MeSH_DUI">
+        <rdfs:label>MeSH_DUI</rdfs:label>
+        <NDF-RT:code>C134</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&NDF-RT;NUI">
+        <rdfs:label>NUI</rdfs:label>
+        <NDF-RT:code>C10490107818172</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&NDF-RT;MeSH_Name">
+        <rdfs:label>MeSH_Name</rdfs:label>
+        <NDF-RT:code>C287</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&NDF-RT;code">
+        <protege:readOnly rdf:datatype="&xsd;integer">1</protege:readOnly>
+        <NDF-RT:code>AHC0</NDF-RT:code>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
 
