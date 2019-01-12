@@ -8,7 +8,6 @@ ODNAE is designed as an effective platform of a drug-induced neuropathy knowledg
 ## Availability:
 
 Ontobee: http://www.ontobee.org/ontology/ODNAE 
-
 BioPortal: http://bioportal.bioontology.org/ontologies/ODNAE 
 
 ## Citation:
